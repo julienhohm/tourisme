@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form xmlns="http://jelix.org/ns/forms/1.1">
+
+	<input type="string" ref="name" required="true" maxlength="50">
+		<label>Nom :</label>
+		<help>50 caractères maximum</help>
+		<alert type="required">Le nom est obligatoire</alert>
+		<alert type="invalid">Vérifier le nombre de caractères</alert>
+	</input>
+	
+	<submit ref="submit">
+		<label>Enregistrer</label>		
+	</submit>
+
+</form>

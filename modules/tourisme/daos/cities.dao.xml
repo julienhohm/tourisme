@@ -1,0 +1,23 @@
+<dao xmlns="http://jelix.org/ns/dao/1.0">
+	<datasources>
+		<primarytable name="cities" realname="cities" primarykey="cityId"/>
+		<foreigntable name="departments" realname="departments" primarykey="departmentId" onforeignkey="departmentId"/>
+	</datasources>
+	<record>
+		<property name="cityId" datatype="int" required="true" autoincrement="true"/>
+		<property name="departmentId" datatype="tinyint" required="true"/>
+		<property name="cityName" datatype="varchar" required="true" maxlength="100"/>
+		<property name="cityPostcalCode" datatype="varchar" required="true" maxlength="5"/>
+	</record>
+	<factory>
+		<method type="select" name="findByDepartment">
+			<parameter name="departmentId"/>
+			<conditions>
+				<eq property="departmentId" expr="$departmentId"/>
+			</conditions>
+			<order>
+				<orderitem property="cityName" way="asc"/>
+			</order>
+		</method>
+	</factory>
+</dao>

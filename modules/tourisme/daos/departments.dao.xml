@@ -1,0 +1,23 @@
+<dao xmlns="http://jelix.org/ns/dao/1.0">
+	<datasources>
+		<primarytable name="departments" realname="departments" primarykey="departmentId"/>
+		<foreigntable name="regions" realname="regions" primarykey="regionId" onforeignkey="regionId"/>
+	</datasources>
+	<record>
+		<property name="departmentId" datatype="tinyint" required="true" autoincrement="true"/>
+		<property name="regionId" datatype="tinyint" required="true"/>
+		<property name="departmentName" datatype="varchar" required="true" maxlength="50"/>
+		<property name="departmentNumber" datatype="varchar" required="true" maxlength="3"/>
+	</record>
+	<factory>
+		<method type="select" name="findByRegion">
+			<parameter name="regionId"/>
+			<conditions>
+				<eq property="regionId" expr="$regionId"/>
+			</conditions>
+			<order>
+				<orderitem property="departmentName" way="asc"/>
+			</order>
+		</method>
+	</factory>
+</dao>

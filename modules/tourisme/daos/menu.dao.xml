@@ -1,0 +1,18 @@
+<dao xmlns="http://jelix.org/ns/dao/1.0">
+	<datasources>
+		<primarytable name="menu" realname="menu" primarykey="menuId"/>
+	</datasources>
+	<record>
+		<property name="menuId" datatype="tinyint" required="true" autoincrement="true"/>
+		<property name="menuName" datatype="varchar" required="true" maxlength="50"/>
+		<property name="menuOrder" datatype="tinyint" required="true"/>
+		<property name="menuUrl" datatype="varchar" required="true" maxlength="50"/>
+	</record>
+	<factory>
+		<method type="select" name="findAllOrderByOrder">
+			<order>
+				<orderitem property="menuOrder" way="asc"/>
+			</order>
+		</method>
+	</factory>
+</dao>

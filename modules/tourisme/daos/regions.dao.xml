@@ -1,0 +1,12 @@
+<dao xmlns="http://jelix.org/ns/dao/1.0">
+	<datasources>
+		<primarytable name="regions" realname="regions" primarykey="regionId"/>
+	</datasources>
+	<record>
+		<property name="regionId" datatype="tinyint" required="true" autoincrement="true"/>
+		<property name="regionName" datatype="varchar" required="true" maxlength="50"/>
+	</record>
+	<factory>
+		
+	</factory>
+</dao>
