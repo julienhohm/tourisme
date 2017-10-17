@@ -2,21 +2,21 @@
 
 class input_bulmaFormWidget extends \jelix\forms\HtmlWidget\WidgetBase {
 	
-	function outputLabel($format = "", $editMode = true) {
-		
-	 	$ctrl = $this->ctrl;
-		$attr = array();
-        
-        $attr['hint'] = ($this->ctrl->hint == '' ? '' : ' title="'.htmlspecialchars($this->ctrl->hint).'"');
-        $attr['idLabel'] = ' id="'.$this->getId().'_label"';
-        $attr['class'] = 'label';
+//	function outputLabel($format = "", $editMode = true) {
+//		
+//	 	$ctrl = $this->ctrl;
+//		$attr = array();
+//        
+//        $attr['hint'] = ($this->ctrl->hint == '' ? '' : ' title="'.htmlspecialchars($this->ctrl->hint).'"');
+//        $attr['idLabel'] = ' id="'.$this->getId().'_label"';
+//        $attr['class'] = 'label';
 //        $attr['class'] .= (isset($this->builder->getForm()->getContainer()->errors[$this->ctrl->ref]) ?' jforms-error':'');		
-		
+//		
 //        if ($format)
 //            $label = sprintf($format, $this->ctrl->label);
 //        else
 //            $label = $this->ctrl->label;
-
+//
 //        if ($ctrl->type == 'output' || $ctrl->type == 'checkboxes' ||
 //            $ctrl->type == 'radiobuttons' || $ctrl->type == 'date' ||
 //            $ctrl->type == 'datetime' || $ctrl->type == 'choice'){
@@ -29,10 +29,10 @@ class input_bulmaFormWidget extends \jelix\forms\HtmlWidget\WidgetBase {
 //			echo htmlspecialchars($label);
 //			echo "</label>";
 //        }
-		
-		echo sprintf("<label class='label' for='%s' id='%s_label'>%s</label>", $this->getId(), $this->getId(), htmlentities($this->ctrl->label));
-		
-	}
+//		
+//		echo sprintf("<label class='label' for='%s' id='%s_label'>%s</label>", $this->getId(), $this->getId(), htmlentities($this->ctrl->label));
+//		
+//	}
 	
     function outputControl() {
 //        $attr = $this->getControlAttributes();

@@ -86,7 +86,8 @@ class formhtmlFormBuilder extends \jelix\forms\Builder\HtmlBuilder {
 		
 		if($ctrl->type == "hidden" || $ctrl->type == 'button') return;
 		$widget = $this->getWidget($ctrl, $this->rootWidget);
-        $widget->outputLabel($format, $editMode);
+//        $widget->outputLabel($format, $editMode);
+		echo sprintf("<label class='label' for='%s' id='%s_label'>%s</label>", $widget->getId(), $widget->getId(), htmlentities($ctrl->label));
 		
 	}
 	

@@ -1,0 +1,17 @@
+<dao xmlns="http://jelix.org/ns/dao/1.0">
+	<datasources>
+		<primarytable name="activities" realname="activities" primarykey="activityId"/>
+		<foreigntable name="cities" realname="cities" primarykey="cityId" onforeignkey="cityId"/>
+	</datasources>
+	<record>
+		<property name="activityId" datatype="bigint" required="true" autoincrement="true"/>
+		<property name="cityId" datatype="int" required="true" />
+		<property name="activittyName" datatype="varchar" required="true" maxlength="100"/>
+		<property name="activityAddress" datatype="varchar" required="true" maxlength="200"/>
+		<property name="activityWebsite" datatype="varchar" required="true" maxlength="100"/>
+		<property name="activityDescription" datatype="varchar" required="true" maxlength="500"/>
+	</record>
+	<factory>
+		
+	</factory>
+</dao>

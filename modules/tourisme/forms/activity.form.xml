@@ -1,12 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <form xmlns="http://jelix.org/ns/forms/1.1">
 
-	<input type="string" ref="name" required="true" maxlength="50">
+	<input type="string" ref="name" required="true" maxlength="100">
 		<label>Nom :</label>
-		<help>50 caractères maximum</help>
-		<alert type="required">Le nom est obligatoire</alert>
-		<alert type="invalid">Vérifier le nombre de caractères</alert>
+		<help>100 caractères maximum.</help>
+		<alert type="required">Le nom est obligatoire.</alert>
+		<alert type="invalid">Vérifier le nombre de caractères.</alert>
 	</input>
+	
+	<textarea ref="address" required="true" maxlength="200">
+		<label>Adresse :</label>
+		<help>200 caractères maximum.</help>
+		<alert type="required">L'adresse est obligatoire.</alert>
+		<alert type="invalid">Vérifier le nombre de caractères.</alert>
+	</textarea>
+	
+	<menulist ref="region" required="true">
+		<label>Région :</label>
+		<datasource dao="tourisme~regions" method="findAll" labelproperty="regionName" valueproperty="regionId"/>
+	</menulist>
+	
+	<menulist ref="department" required="true">
+		<label>Département :</label>
+		<datasource dao="tourisme~departments" method="findByRegion" criteriafrom="region" labelproperty="departmentName" valueproperty="departmentId"/>
+	</menulist>
 	
 	<submit ref="submit">
 		<label>Enregistrer</label>		

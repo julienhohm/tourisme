@@ -20164,3 +20164,1179 @@ array (   'module' => 'tourisme',   'action' => 'form:showActivity', )
 	7	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
 
 
+2017-10-17 13:21:18	::1	error	2017-10-17 13:21:18	::1	[802]	 attribut ref manquant sur textarea (fichier C:\wamp64\www\tourisme/modules/tourisme/forms/activity.form.xml)	C:\wamp64\jelix\lib\jelix\forms\jFormsCompiler_jf_1_0.class.php	73
+	/tourisme/www/index.php?module=tourisme&action=form:showActivity
+array (   'module' => 'tourisme',   'action' => 'form:showActivity', )
+
+	0	jFormsCompiler_jf_1_0->_generatePHPControl()	C:\wamp64\jelix\lib\jelix\forms\jFormsCompiler_jf_1_0.class.php : 51
+	1	jFormsCompiler_jf_1_0->generatePHPControl()	C:\wamp64\jelix\lib\jelix\forms\jFormsCompiler_jf_1_0.class.php : 39
+	2	jFormsCompiler_jf_1_0->compile()	C:\wamp64\jelix\lib\jelix\forms\jFormsCompiler.class.php : 57
+	3	jFormsCompiler->compile()	C:\wamp64\jelix\lib\jelix\core\jIncluder.class.php : 113
+	4	jIncluder::inc()	C:\wamp64\jelix\lib\jelix\forms\jForms.class.php : 99
+	5	jForms::get()	C:\wamp64\www\tourisme\modules\tourisme\controllers\form.classic.php : 18
+	6	formCtrl->showActivity()	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php : 225
+	7	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-17 13:21:24	::1	error	2017-10-17 13:21:24	::1	[0]	Widget textarea_bulma not found	C:\wamp64\www\tourisme\plugins\formbuilder\formhtml\formhtml.formbuilder.php	35
+	/tourisme/www/index.php?module=tourisme&action=form:showActivity
+array (   'module' => 'tourisme',   'action' => 'form:showActivity', )
+
+	0	formhtmlFormBuilder->getWidget()	C:\wamp64\www\tourisme\plugins\formbuilder\formhtml\formhtml.formbuilder.php : 88
+	1	formhtmlFormBuilder->outputControlLabel()	C:\wamp64\jelix\lib\jelix\plugins\tpl\html\function.ctrl_label.php : 52
+	2	jtpl_function_html_ctrl_label()	C:\wamp64\www\temp\tourisme\www\compiled\templates\modules\tourisme\activity_html_t_15.php : 51
+	3	template_e2f25657b25061a86fd942fcf8911252()	C:\wamp64\jelix\lib\jelix\tpl\jTpl.class.php : 287
+	4	jTpl->fetch()	C:\wamp64\www\tourisme\modules\tourisme\controllers\form.classic.php : 28
+	5	formCtrl->showActivity()	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php : 225
+	6	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-17 13:21:25	::1	error	2017-10-17 13:21:25	::1	[0]	Widget textarea_bulma not found	C:\wamp64\www\tourisme\plugins\formbuilder\formhtml\formhtml.formbuilder.php	35
+	/tourisme/www/index.php?module=tourisme&action=form:showActivity
+array (   'module' => 'tourisme',   'action' => 'form:showActivity', )
+
+	0	formhtmlFormBuilder->getWidget()	C:\wamp64\www\tourisme\plugins\formbuilder\formhtml\formhtml.formbuilder.php : 88
+	1	formhtmlFormBuilder->outputControlLabel()	C:\wamp64\jelix\lib\jelix\plugins\tpl\html\function.ctrl_label.php : 52
+	2	jtpl_function_html_ctrl_label()	C:\wamp64\www\temp\tourisme\www\compiled\templates\modules\tourisme\activity_html_t_15.php : 51
+	3	template_e2f25657b25061a86fd942fcf8911252()	C:\wamp64\jelix\lib\jelix\tpl\jTpl.class.php : 287
+	4	jTpl->fetch()	C:\wamp64\www\tourisme\modules\tourisme\controllers\form.classic.php : 28
+	5	formCtrl->showActivity()	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php : 225
+	6	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-17 13:21:25	::1	error	2017-10-17 13:21:25	::1	[0]	Widget textarea_bulma not found	C:\wamp64\www\tourisme\plugins\formbuilder\formhtml\formhtml.formbuilder.php	35
+	/tourisme/www/index.php?module=tourisme&action=form:showActivity
+array (   'module' => 'tourisme',   'action' => 'form:showActivity', )
+
+	0	formhtmlFormBuilder->getWidget()	C:\wamp64\www\tourisme\plugins\formbuilder\formhtml\formhtml.formbuilder.php : 88
+	1	formhtmlFormBuilder->outputControlLabel()	C:\wamp64\jelix\lib\jelix\plugins\tpl\html\function.ctrl_label.php : 52
+	2	jtpl_function_html_ctrl_label()	C:\wamp64\www\temp\tourisme\www\compiled\templates\modules\tourisme\activity_html_t_15.php : 51
+	3	template_e2f25657b25061a86fd942fcf8911252()	C:\wamp64\jelix\lib\jelix\tpl\jTpl.class.php : 287
+	4	jTpl->fetch()	C:\wamp64\www\tourisme\modules\tourisme\controllers\form.classic.php : 28
+	5	formCtrl->showActivity()	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php : 225
+	6	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-17 13:21:26	::1	error	2017-10-17 13:21:26	::1	[0]	Widget textarea_bulma not found	C:\wamp64\www\tourisme\plugins\formbuilder\formhtml\formhtml.formbuilder.php	35
+	/tourisme/www/index.php?module=tourisme&action=form:showActivity
+array (   'module' => 'tourisme',   'action' => 'form:showActivity', )
+
+	0	formhtmlFormBuilder->getWidget()	C:\wamp64\www\tourisme\plugins\formbuilder\formhtml\formhtml.formbuilder.php : 88
+	1	formhtmlFormBuilder->outputControlLabel()	C:\wamp64\jelix\lib\jelix\plugins\tpl\html\function.ctrl_label.php : 52
+	2	jtpl_function_html_ctrl_label()	C:\wamp64\www\temp\tourisme\www\compiled\templates\modules\tourisme\activity_html_t_15.php : 51
+	3	template_e2f25657b25061a86fd942fcf8911252()	C:\wamp64\jelix\lib\jelix\tpl\jTpl.class.php : 287
+	4	jTpl->fetch()	C:\wamp64\www\tourisme\modules\tourisme\controllers\form.classic.php : 28
+	5	formCtrl->showActivity()	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php : 225
+	6	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-17 13:21:26	::1	error	2017-10-17 13:21:26	::1	[0]	Widget textarea_bulma not found	C:\wamp64\www\tourisme\plugins\formbuilder\formhtml\formhtml.formbuilder.php	35
+	/tourisme/www/index.php?module=tourisme&action=form:showActivity
+array (   'module' => 'tourisme',   'action' => 'form:showActivity', )
+
+	0	formhtmlFormBuilder->getWidget()	C:\wamp64\www\tourisme\plugins\formbuilder\formhtml\formhtml.formbuilder.php : 88
+	1	formhtmlFormBuilder->outputControlLabel()	C:\wamp64\jelix\lib\jelix\plugins\tpl\html\function.ctrl_label.php : 52
+	2	jtpl_function_html_ctrl_label()	C:\wamp64\www\temp\tourisme\www\compiled\templates\modules\tourisme\activity_html_t_15.php : 51
+	3	template_e2f25657b25061a86fd942fcf8911252()	C:\wamp64\jelix\lib\jelix\tpl\jTpl.class.php : 287
+	4	jTpl->fetch()	C:\wamp64\www\tourisme\modules\tourisme\controllers\form.classic.php : 28
+	5	formCtrl->showActivity()	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php : 225
+	6	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-17 13:28:39	::1	notice	2017-10-17 13:28:39	::1	[8]	Undefined property: formhtmlFormBuilder::$ctrl	C:\wamp64\www\tourisme\plugins\formbuilder\formhtml\formhtml.formbuilder.php	90
+	/tourisme/www/index.php?module=tourisme&action=form:showActivity
+array (   'module' => 'tourisme',   'action' => 'form:showActivity', )
+
+	0	formhtmlFormBuilder->outputControlLabel()	C:\wamp64\jelix\lib\jelix\plugins\tpl\html\function.ctrl_label.php : 52
+	1	jtpl_function_html_ctrl_label()	C:\wamp64\www\temp\tourisme\www\compiled\templates\modules\tourisme\activity_html_t_15.php : 51
+	2	template_e2f25657b25061a86fd942fcf8911252()	C:\wamp64\jelix\lib\jelix\tpl\jTpl.class.php : 287
+	3	jTpl->fetch()	C:\wamp64\www\tourisme\modules\tourisme\controllers\form.classic.php : 28
+	4	formCtrl->showActivity()	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php : 225
+	5	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-17 13:28:39	::1	notice	2017-10-17 13:28:39	::1	[8]	Trying to get property of non-object	C:\wamp64\www\tourisme\plugins\formbuilder\formhtml\formhtml.formbuilder.php	90
+	/tourisme/www/index.php?module=tourisme&action=form:showActivity
+array (   'module' => 'tourisme',   'action' => 'form:showActivity', )
+
+	0	formhtmlFormBuilder->outputControlLabel()	C:\wamp64\jelix\lib\jelix\plugins\tpl\html\function.ctrl_label.php : 52
+	1	jtpl_function_html_ctrl_label()	C:\wamp64\www\temp\tourisme\www\compiled\templates\modules\tourisme\activity_html_t_15.php : 51
+	2	template_e2f25657b25061a86fd942fcf8911252()	C:\wamp64\jelix\lib\jelix\tpl\jTpl.class.php : 287
+	3	jTpl->fetch()	C:\wamp64\www\tourisme\modules\tourisme\controllers\form.classic.php : 28
+	4	formCtrl->showActivity()	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php : 225
+	5	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-17 13:28:39	::1	notice	2017-10-17 13:28:39	::1	[8]	Undefined property: formhtmlFormBuilder::$ctrl	C:\wamp64\www\tourisme\plugins\formbuilder\formhtml\formhtml.formbuilder.php	90
+	/tourisme/www/index.php?module=tourisme&action=form:showActivity
+array (   'module' => 'tourisme',   'action' => 'form:showActivity', )
+
+	0	formhtmlFormBuilder->outputControlLabel()	C:\wamp64\jelix\lib\jelix\plugins\tpl\html\function.ctrl_label.php : 52
+	1	jtpl_function_html_ctrl_label()	C:\wamp64\www\temp\tourisme\www\compiled\templates\modules\tourisme\activity_html_t_15.php : 51
+	2	template_e2f25657b25061a86fd942fcf8911252()	C:\wamp64\jelix\lib\jelix\tpl\jTpl.class.php : 287
+	3	jTpl->fetch()	C:\wamp64\www\tourisme\modules\tourisme\controllers\form.classic.php : 28
+	4	formCtrl->showActivity()	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php : 225
+	5	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-17 13:28:39	::1	notice	2017-10-17 13:28:39	::1	[8]	Trying to get property of non-object	C:\wamp64\www\tourisme\plugins\formbuilder\formhtml\formhtml.formbuilder.php	90
+	/tourisme/www/index.php?module=tourisme&action=form:showActivity
+array (   'module' => 'tourisme',   'action' => 'form:showActivity', )
+
+	0	formhtmlFormBuilder->outputControlLabel()	C:\wamp64\jelix\lib\jelix\plugins\tpl\html\function.ctrl_label.php : 52
+	1	jtpl_function_html_ctrl_label()	C:\wamp64\www\temp\tourisme\www\compiled\templates\modules\tourisme\activity_html_t_15.php : 51
+	2	template_e2f25657b25061a86fd942fcf8911252()	C:\wamp64\jelix\lib\jelix\tpl\jTpl.class.php : 287
+	3	jTpl->fetch()	C:\wamp64\www\tourisme\modules\tourisme\controllers\form.classic.php : 28
+	4	formCtrl->showActivity()	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php : 225
+	5	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-17 13:28:40	::1	notice	2017-10-17 13:28:40	::1	[8]	Undefined property: formhtmlFormBuilder::$ctrl	C:\wamp64\www\tourisme\plugins\formbuilder\formhtml\formhtml.formbuilder.php	90
+	/tourisme/www/index.php?module=tourisme&action=form:showActivity
+array (   'module' => 'tourisme',   'action' => 'form:showActivity', )
+
+	0	formhtmlFormBuilder->outputControlLabel()	C:\wamp64\jelix\lib\jelix\plugins\tpl\html\function.ctrl_label.php : 52
+	1	jtpl_function_html_ctrl_label()	C:\wamp64\www\temp\tourisme\www\compiled\templates\modules\tourisme\activity_html_t_15.php : 51
+	2	template_e2f25657b25061a86fd942fcf8911252()	C:\wamp64\jelix\lib\jelix\tpl\jTpl.class.php : 287
+	3	jTpl->fetch()	C:\wamp64\www\tourisme\modules\tourisme\controllers\form.classic.php : 28
+	4	formCtrl->showActivity()	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php : 225
+	5	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-17 13:28:40	::1	notice	2017-10-17 13:28:40	::1	[8]	Trying to get property of non-object	C:\wamp64\www\tourisme\plugins\formbuilder\formhtml\formhtml.formbuilder.php	90
+	/tourisme/www/index.php?module=tourisme&action=form:showActivity
+array (   'module' => 'tourisme',   'action' => 'form:showActivity', )
+
+	0	formhtmlFormBuilder->outputControlLabel()	C:\wamp64\jelix\lib\jelix\plugins\tpl\html\function.ctrl_label.php : 52
+	1	jtpl_function_html_ctrl_label()	C:\wamp64\www\temp\tourisme\www\compiled\templates\modules\tourisme\activity_html_t_15.php : 51
+	2	template_e2f25657b25061a86fd942fcf8911252()	C:\wamp64\jelix\lib\jelix\tpl\jTpl.class.php : 287
+	3	jTpl->fetch()	C:\wamp64\www\tourisme\modules\tourisme\controllers\form.classic.php : 28
+	4	formCtrl->showActivity()	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php : 225
+	5	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-17 13:28:40	::1	notice	2017-10-17 13:28:40	::1	[8]	Undefined property: formhtmlFormBuilder::$ctrl	C:\wamp64\www\tourisme\plugins\formbuilder\formhtml\formhtml.formbuilder.php	90
+	/tourisme/www/index.php?module=tourisme&action=form:showActivity
+array (   'module' => 'tourisme',   'action' => 'form:showActivity', )
+
+	0	formhtmlFormBuilder->outputControlLabel()	C:\wamp64\jelix\lib\jelix\plugins\tpl\html\function.ctrl_label.php : 52
+	1	jtpl_function_html_ctrl_label()	C:\wamp64\www\temp\tourisme\www\compiled\templates\modules\tourisme\activity_html_t_15.php : 51
+	2	template_e2f25657b25061a86fd942fcf8911252()	C:\wamp64\jelix\lib\jelix\tpl\jTpl.class.php : 287
+	3	jTpl->fetch()	C:\wamp64\www\tourisme\modules\tourisme\controllers\form.classic.php : 28
+	4	formCtrl->showActivity()	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php : 225
+	5	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-17 13:28:40	::1	notice	2017-10-17 13:28:40	::1	[8]	Trying to get property of non-object	C:\wamp64\www\tourisme\plugins\formbuilder\formhtml\formhtml.formbuilder.php	90
+	/tourisme/www/index.php?module=tourisme&action=form:showActivity
+array (   'module' => 'tourisme',   'action' => 'form:showActivity', )
+
+	0	formhtmlFormBuilder->outputControlLabel()	C:\wamp64\jelix\lib\jelix\plugins\tpl\html\function.ctrl_label.php : 52
+	1	jtpl_function_html_ctrl_label()	C:\wamp64\www\temp\tourisme\www\compiled\templates\modules\tourisme\activity_html_t_15.php : 51
+	2	template_e2f25657b25061a86fd942fcf8911252()	C:\wamp64\jelix\lib\jelix\tpl\jTpl.class.php : 287
+	3	jTpl->fetch()	C:\wamp64\www\tourisme\modules\tourisme\controllers\form.classic.php : 28
+	4	formCtrl->showActivity()	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php : 225
+	5	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-17 13:28:49	::1	notice	2017-10-17 13:28:49	::1	[8]	Undefined property: formhtmlFormBuilder::$ctrl	C:\wamp64\www\tourisme\plugins\formbuilder\formhtml\formhtml.formbuilder.php	91
+	/tourisme/www/index.php?module=tourisme&action=form:showActivity
+array (   'module' => 'tourisme',   'action' => 'form:showActivity', )
+
+	0	formhtmlFormBuilder->outputControlLabel()	C:\wamp64\jelix\lib\jelix\plugins\tpl\html\function.ctrl_label.php : 52
+	1	jtpl_function_html_ctrl_label()	C:\wamp64\www\temp\tourisme\www\compiled\templates\modules\tourisme\activity_html_t_15.php : 51
+	2	template_e2f25657b25061a86fd942fcf8911252()	C:\wamp64\jelix\lib\jelix\tpl\jTpl.class.php : 287
+	3	jTpl->fetch()	C:\wamp64\www\tourisme\modules\tourisme\controllers\form.classic.php : 28
+	4	formCtrl->showActivity()	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php : 225
+	5	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-17 13:28:49	::1	notice	2017-10-17 13:28:49	::1	[8]	Trying to get property of non-object	C:\wamp64\www\tourisme\plugins\formbuilder\formhtml\formhtml.formbuilder.php	91
+	/tourisme/www/index.php?module=tourisme&action=form:showActivity
+array (   'module' => 'tourisme',   'action' => 'form:showActivity', )
+
+	0	formhtmlFormBuilder->outputControlLabel()	C:\wamp64\jelix\lib\jelix\plugins\tpl\html\function.ctrl_label.php : 52
+	1	jtpl_function_html_ctrl_label()	C:\wamp64\www\temp\tourisme\www\compiled\templates\modules\tourisme\activity_html_t_15.php : 51
+	2	template_e2f25657b25061a86fd942fcf8911252()	C:\wamp64\jelix\lib\jelix\tpl\jTpl.class.php : 287
+	3	jTpl->fetch()	C:\wamp64\www\tourisme\modules\tourisme\controllers\form.classic.php : 28
+	4	formCtrl->showActivity()	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php : 225
+	5	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-17 13:28:49	::1	notice	2017-10-17 13:28:49	::1	[8]	Undefined property: formhtmlFormBuilder::$ctrl	C:\wamp64\www\tourisme\plugins\formbuilder\formhtml\formhtml.formbuilder.php	91
+	/tourisme/www/index.php?module=tourisme&action=form:showActivity
+array (   'module' => 'tourisme',   'action' => 'form:showActivity', )
+
+	0	formhtmlFormBuilder->outputControlLabel()	C:\wamp64\jelix\lib\jelix\plugins\tpl\html\function.ctrl_label.php : 52
+	1	jtpl_function_html_ctrl_label()	C:\wamp64\www\temp\tourisme\www\compiled\templates\modules\tourisme\activity_html_t_15.php : 51
+	2	template_e2f25657b25061a86fd942fcf8911252()	C:\wamp64\jelix\lib\jelix\tpl\jTpl.class.php : 287
+	3	jTpl->fetch()	C:\wamp64\www\tourisme\modules\tourisme\controllers\form.classic.php : 28
+	4	formCtrl->showActivity()	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php : 225
+	5	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-17 13:28:49	::1	notice	2017-10-17 13:28:49	::1	[8]	Trying to get property of non-object	C:\wamp64\www\tourisme\plugins\formbuilder\formhtml\formhtml.formbuilder.php	91
+	/tourisme/www/index.php?module=tourisme&action=form:showActivity
+array (   'module' => 'tourisme',   'action' => 'form:showActivity', )
+
+	0	formhtmlFormBuilder->outputControlLabel()	C:\wamp64\jelix\lib\jelix\plugins\tpl\html\function.ctrl_label.php : 52
+	1	jtpl_function_html_ctrl_label()	C:\wamp64\www\temp\tourisme\www\compiled\templates\modules\tourisme\activity_html_t_15.php : 51
+	2	template_e2f25657b25061a86fd942fcf8911252()	C:\wamp64\jelix\lib\jelix\tpl\jTpl.class.php : 287
+	3	jTpl->fetch()	C:\wamp64\www\tourisme\modules\tourisme\controllers\form.classic.php : 28
+	4	formCtrl->showActivity()	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php : 225
+	5	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-17 13:28:50	::1	notice	2017-10-17 13:28:50	::1	[8]	Undefined property: formhtmlFormBuilder::$ctrl	C:\wamp64\www\tourisme\plugins\formbuilder\formhtml\formhtml.formbuilder.php	91
+	/tourisme/www/index.php?module=tourisme&action=form:showActivity
+array (   'module' => 'tourisme',   'action' => 'form:showActivity', )
+
+	0	formhtmlFormBuilder->outputControlLabel()	C:\wamp64\jelix\lib\jelix\plugins\tpl\html\function.ctrl_label.php : 52
+	1	jtpl_function_html_ctrl_label()	C:\wamp64\www\temp\tourisme\www\compiled\templates\modules\tourisme\activity_html_t_15.php : 51
+	2	template_e2f25657b25061a86fd942fcf8911252()	C:\wamp64\jelix\lib\jelix\tpl\jTpl.class.php : 287
+	3	jTpl->fetch()	C:\wamp64\www\tourisme\modules\tourisme\controllers\form.classic.php : 28
+	4	formCtrl->showActivity()	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php : 225
+	5	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-17 13:28:50	::1	notice	2017-10-17 13:28:50	::1	[8]	Trying to get property of non-object	C:\wamp64\www\tourisme\plugins\formbuilder\formhtml\formhtml.formbuilder.php	91
+	/tourisme/www/index.php?module=tourisme&action=form:showActivity
+array (   'module' => 'tourisme',   'action' => 'form:showActivity', )
+
+	0	formhtmlFormBuilder->outputControlLabel()	C:\wamp64\jelix\lib\jelix\plugins\tpl\html\function.ctrl_label.php : 52
+	1	jtpl_function_html_ctrl_label()	C:\wamp64\www\temp\tourisme\www\compiled\templates\modules\tourisme\activity_html_t_15.php : 51
+	2	template_e2f25657b25061a86fd942fcf8911252()	C:\wamp64\jelix\lib\jelix\tpl\jTpl.class.php : 287
+	3	jTpl->fetch()	C:\wamp64\www\tourisme\modules\tourisme\controllers\form.classic.php : 28
+	4	formCtrl->showActivity()	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php : 225
+	5	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-17 13:28:50	::1	notice	2017-10-17 13:28:50	::1	[8]	Undefined property: formhtmlFormBuilder::$ctrl	C:\wamp64\www\tourisme\plugins\formbuilder\formhtml\formhtml.formbuilder.php	91
+	/tourisme/www/index.php?module=tourisme&action=form:showActivity
+array (   'module' => 'tourisme',   'action' => 'form:showActivity', )
+
+	0	formhtmlFormBuilder->outputControlLabel()	C:\wamp64\jelix\lib\jelix\plugins\tpl\html\function.ctrl_label.php : 52
+	1	jtpl_function_html_ctrl_label()	C:\wamp64\www\temp\tourisme\www\compiled\templates\modules\tourisme\activity_html_t_15.php : 51
+	2	template_e2f25657b25061a86fd942fcf8911252()	C:\wamp64\jelix\lib\jelix\tpl\jTpl.class.php : 287
+	3	jTpl->fetch()	C:\wamp64\www\tourisme\modules\tourisme\controllers\form.classic.php : 28
+	4	formCtrl->showActivity()	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php : 225
+	5	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-17 13:28:50	::1	notice	2017-10-17 13:28:50	::1	[8]	Trying to get property of non-object	C:\wamp64\www\tourisme\plugins\formbuilder\formhtml\formhtml.formbuilder.php	91
+	/tourisme/www/index.php?module=tourisme&action=form:showActivity
+array (   'module' => 'tourisme',   'action' => 'form:showActivity', )
+
+	0	formhtmlFormBuilder->outputControlLabel()	C:\wamp64\jelix\lib\jelix\plugins\tpl\html\function.ctrl_label.php : 52
+	1	jtpl_function_html_ctrl_label()	C:\wamp64\www\temp\tourisme\www\compiled\templates\modules\tourisme\activity_html_t_15.php : 51
+	2	template_e2f25657b25061a86fd942fcf8911252()	C:\wamp64\jelix\lib\jelix\tpl\jTpl.class.php : 287
+	3	jTpl->fetch()	C:\wamp64\www\tourisme\modules\tourisme\controllers\form.classic.php : 28
+	4	formCtrl->showActivity()	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php : 225
+	5	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-17 13:29:29	::1	notice	2017-10-17 13:29:29	::1	[8]	Undefined property: formhtmlFormBuilder::$ctrl	C:\wamp64\www\tourisme\plugins\formbuilder\formhtml\formhtml.formbuilder.php	91
+	/tourisme/www/index.php?module=tourisme&action=form:showActivity
+array (   'module' => 'tourisme',   'action' => 'form:showActivity', )
+
+	0	formhtmlFormBuilder->outputControlLabel()	C:\wamp64\jelix\lib\jelix\plugins\tpl\html\function.ctrl_label.php : 52
+	1	jtpl_function_html_ctrl_label()	C:\wamp64\www\temp\tourisme\www\compiled\templates\modules\tourisme\activity_html_t_15.php : 51
+	2	template_e2f25657b25061a86fd942fcf8911252()	C:\wamp64\jelix\lib\jelix\tpl\jTpl.class.php : 287
+	3	jTpl->fetch()	C:\wamp64\www\tourisme\modules\tourisme\controllers\form.classic.php : 28
+	4	formCtrl->showActivity()	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php : 225
+	5	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-17 13:29:29	::1	notice	2017-10-17 13:29:29	::1	[8]	Trying to get property of non-object	C:\wamp64\www\tourisme\plugins\formbuilder\formhtml\formhtml.formbuilder.php	91
+	/tourisme/www/index.php?module=tourisme&action=form:showActivity
+array (   'module' => 'tourisme',   'action' => 'form:showActivity', )
+
+	0	formhtmlFormBuilder->outputControlLabel()	C:\wamp64\jelix\lib\jelix\plugins\tpl\html\function.ctrl_label.php : 52
+	1	jtpl_function_html_ctrl_label()	C:\wamp64\www\temp\tourisme\www\compiled\templates\modules\tourisme\activity_html_t_15.php : 51
+	2	template_e2f25657b25061a86fd942fcf8911252()	C:\wamp64\jelix\lib\jelix\tpl\jTpl.class.php : 287
+	3	jTpl->fetch()	C:\wamp64\www\tourisme\modules\tourisme\controllers\form.classic.php : 28
+	4	formCtrl->showActivity()	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php : 225
+	5	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-17 13:29:29	::1	notice	2017-10-17 13:29:29	::1	[8]	Undefined property: formhtmlFormBuilder::$ctrl	C:\wamp64\www\tourisme\plugins\formbuilder\formhtml\formhtml.formbuilder.php	91
+	/tourisme/www/index.php?module=tourisme&action=form:showActivity
+array (   'module' => 'tourisme',   'action' => 'form:showActivity', )
+
+	0	formhtmlFormBuilder->outputControlLabel()	C:\wamp64\jelix\lib\jelix\plugins\tpl\html\function.ctrl_label.php : 52
+	1	jtpl_function_html_ctrl_label()	C:\wamp64\www\temp\tourisme\www\compiled\templates\modules\tourisme\activity_html_t_15.php : 51
+	2	template_e2f25657b25061a86fd942fcf8911252()	C:\wamp64\jelix\lib\jelix\tpl\jTpl.class.php : 287
+	3	jTpl->fetch()	C:\wamp64\www\tourisme\modules\tourisme\controllers\form.classic.php : 28
+	4	formCtrl->showActivity()	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php : 225
+	5	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-17 13:29:29	::1	notice	2017-10-17 13:29:29	::1	[8]	Trying to get property of non-object	C:\wamp64\www\tourisme\plugins\formbuilder\formhtml\formhtml.formbuilder.php	91
+	/tourisme/www/index.php?module=tourisme&action=form:showActivity
+array (   'module' => 'tourisme',   'action' => 'form:showActivity', )
+
+	0	formhtmlFormBuilder->outputControlLabel()	C:\wamp64\jelix\lib\jelix\plugins\tpl\html\function.ctrl_label.php : 52
+	1	jtpl_function_html_ctrl_label()	C:\wamp64\www\temp\tourisme\www\compiled\templates\modules\tourisme\activity_html_t_15.php : 51
+	2	template_e2f25657b25061a86fd942fcf8911252()	C:\wamp64\jelix\lib\jelix\tpl\jTpl.class.php : 287
+	3	jTpl->fetch()	C:\wamp64\www\tourisme\modules\tourisme\controllers\form.classic.php : 28
+	4	formCtrl->showActivity()	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php : 225
+	5	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-17 13:29:30	::1	notice	2017-10-17 13:29:30	::1	[8]	Undefined property: formhtmlFormBuilder::$ctrl	C:\wamp64\www\tourisme\plugins\formbuilder\formhtml\formhtml.formbuilder.php	91
+	/tourisme/www/index.php?module=tourisme&action=form:showActivity
+array (   'module' => 'tourisme',   'action' => 'form:showActivity', )
+
+	0	formhtmlFormBuilder->outputControlLabel()	C:\wamp64\jelix\lib\jelix\plugins\tpl\html\function.ctrl_label.php : 52
+	1	jtpl_function_html_ctrl_label()	C:\wamp64\www\temp\tourisme\www\compiled\templates\modules\tourisme\activity_html_t_15.php : 51
+	2	template_e2f25657b25061a86fd942fcf8911252()	C:\wamp64\jelix\lib\jelix\tpl\jTpl.class.php : 287
+	3	jTpl->fetch()	C:\wamp64\www\tourisme\modules\tourisme\controllers\form.classic.php : 28
+	4	formCtrl->showActivity()	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php : 225
+	5	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-17 13:29:30	::1	notice	2017-10-17 13:29:30	::1	[8]	Trying to get property of non-object	C:\wamp64\www\tourisme\plugins\formbuilder\formhtml\formhtml.formbuilder.php	91
+	/tourisme/www/index.php?module=tourisme&action=form:showActivity
+array (   'module' => 'tourisme',   'action' => 'form:showActivity', )
+
+	0	formhtmlFormBuilder->outputControlLabel()	C:\wamp64\jelix\lib\jelix\plugins\tpl\html\function.ctrl_label.php : 52
+	1	jtpl_function_html_ctrl_label()	C:\wamp64\www\temp\tourisme\www\compiled\templates\modules\tourisme\activity_html_t_15.php : 51
+	2	template_e2f25657b25061a86fd942fcf8911252()	C:\wamp64\jelix\lib\jelix\tpl\jTpl.class.php : 287
+	3	jTpl->fetch()	C:\wamp64\www\tourisme\modules\tourisme\controllers\form.classic.php : 28
+	4	formCtrl->showActivity()	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php : 225
+	5	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-17 13:29:30	::1	notice	2017-10-17 13:29:30	::1	[8]	Undefined property: formhtmlFormBuilder::$ctrl	C:\wamp64\www\tourisme\plugins\formbuilder\formhtml\formhtml.formbuilder.php	91
+	/tourisme/www/index.php?module=tourisme&action=form:showActivity
+array (   'module' => 'tourisme',   'action' => 'form:showActivity', )
+
+	0	formhtmlFormBuilder->outputControlLabel()	C:\wamp64\jelix\lib\jelix\plugins\tpl\html\function.ctrl_label.php : 52
+	1	jtpl_function_html_ctrl_label()	C:\wamp64\www\temp\tourisme\www\compiled\templates\modules\tourisme\activity_html_t_15.php : 51
+	2	template_e2f25657b25061a86fd942fcf8911252()	C:\wamp64\jelix\lib\jelix\tpl\jTpl.class.php : 287
+	3	jTpl->fetch()	C:\wamp64\www\tourisme\modules\tourisme\controllers\form.classic.php : 28
+	4	formCtrl->showActivity()	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php : 225
+	5	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-17 13:29:30	::1	notice	2017-10-17 13:29:30	::1	[8]	Trying to get property of non-object	C:\wamp64\www\tourisme\plugins\formbuilder\formhtml\formhtml.formbuilder.php	91
+	/tourisme/www/index.php?module=tourisme&action=form:showActivity
+array (   'module' => 'tourisme',   'action' => 'form:showActivity', )
+
+	0	formhtmlFormBuilder->outputControlLabel()	C:\wamp64\jelix\lib\jelix\plugins\tpl\html\function.ctrl_label.php : 52
+	1	jtpl_function_html_ctrl_label()	C:\wamp64\www\temp\tourisme\www\compiled\templates\modules\tourisme\activity_html_t_15.php : 51
+	2	template_e2f25657b25061a86fd942fcf8911252()	C:\wamp64\jelix\lib\jelix\tpl\jTpl.class.php : 287
+	3	jTpl->fetch()	C:\wamp64\www\tourisme\modules\tourisme\controllers\form.classic.php : 28
+	4	formCtrl->showActivity()	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php : 225
+	5	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-17 13:29:39	::1	notice	2017-10-17 13:29:39	::1	[8]	Undefined property: formhtmlFormBuilder::$ctrl	C:\wamp64\www\tourisme\plugins\formbuilder\formhtml\formhtml.formbuilder.php	90
+	/tourisme/www/index.php?module=tourisme&action=form:showActivity
+array (   'module' => 'tourisme',   'action' => 'form:showActivity', )
+
+	0	formhtmlFormBuilder->outputControlLabel()	C:\wamp64\jelix\lib\jelix\plugins\tpl\html\function.ctrl_label.php : 52
+	1	jtpl_function_html_ctrl_label()	C:\wamp64\www\temp\tourisme\www\compiled\templates\modules\tourisme\activity_html_t_15.php : 51
+	2	template_e2f25657b25061a86fd942fcf8911252()	C:\wamp64\jelix\lib\jelix\tpl\jTpl.class.php : 287
+	3	jTpl->fetch()	C:\wamp64\www\tourisme\modules\tourisme\controllers\form.classic.php : 28
+	4	formCtrl->showActivity()	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php : 225
+	5	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-17 13:29:39	::1	notice	2017-10-17 13:29:39	::1	[8]	Trying to get property of non-object	C:\wamp64\www\tourisme\plugins\formbuilder\formhtml\formhtml.formbuilder.php	90
+	/tourisme/www/index.php?module=tourisme&action=form:showActivity
+array (   'module' => 'tourisme',   'action' => 'form:showActivity', )
+
+	0	formhtmlFormBuilder->outputControlLabel()	C:\wamp64\jelix\lib\jelix\plugins\tpl\html\function.ctrl_label.php : 52
+	1	jtpl_function_html_ctrl_label()	C:\wamp64\www\temp\tourisme\www\compiled\templates\modules\tourisme\activity_html_t_15.php : 51
+	2	template_e2f25657b25061a86fd942fcf8911252()	C:\wamp64\jelix\lib\jelix\tpl\jTpl.class.php : 287
+	3	jTpl->fetch()	C:\wamp64\www\tourisme\modules\tourisme\controllers\form.classic.php : 28
+	4	formCtrl->showActivity()	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php : 225
+	5	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-17 13:29:39	::1	notice	2017-10-17 13:29:39	::1	[8]	Undefined property: formhtmlFormBuilder::$ctrl	C:\wamp64\www\tourisme\plugins\formbuilder\formhtml\formhtml.formbuilder.php	90
+	/tourisme/www/index.php?module=tourisme&action=form:showActivity
+array (   'module' => 'tourisme',   'action' => 'form:showActivity', )
+
+	0	formhtmlFormBuilder->outputControlLabel()	C:\wamp64\jelix\lib\jelix\plugins\tpl\html\function.ctrl_label.php : 52
+	1	jtpl_function_html_ctrl_label()	C:\wamp64\www\temp\tourisme\www\compiled\templates\modules\tourisme\activity_html_t_15.php : 51
+	2	template_e2f25657b25061a86fd942fcf8911252()	C:\wamp64\jelix\lib\jelix\tpl\jTpl.class.php : 287
+	3	jTpl->fetch()	C:\wamp64\www\tourisme\modules\tourisme\controllers\form.classic.php : 28
+	4	formCtrl->showActivity()	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php : 225
+	5	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-17 13:29:39	::1	notice	2017-10-17 13:29:39	::1	[8]	Trying to get property of non-object	C:\wamp64\www\tourisme\plugins\formbuilder\formhtml\formhtml.formbuilder.php	90
+	/tourisme/www/index.php?module=tourisme&action=form:showActivity
+array (   'module' => 'tourisme',   'action' => 'form:showActivity', )
+
+	0	formhtmlFormBuilder->outputControlLabel()	C:\wamp64\jelix\lib\jelix\plugins\tpl\html\function.ctrl_label.php : 52
+	1	jtpl_function_html_ctrl_label()	C:\wamp64\www\temp\tourisme\www\compiled\templates\modules\tourisme\activity_html_t_15.php : 51
+	2	template_e2f25657b25061a86fd942fcf8911252()	C:\wamp64\jelix\lib\jelix\tpl\jTpl.class.php : 287
+	3	jTpl->fetch()	C:\wamp64\www\tourisme\modules\tourisme\controllers\form.classic.php : 28
+	4	formCtrl->showActivity()	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php : 225
+	5	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-17 13:29:40	::1	notice	2017-10-17 13:29:40	::1	[8]	Undefined property: formhtmlFormBuilder::$ctrl	C:\wamp64\www\tourisme\plugins\formbuilder\formhtml\formhtml.formbuilder.php	90
+	/tourisme/www/index.php?module=tourisme&action=form:showActivity
+array (   'module' => 'tourisme',   'action' => 'form:showActivity', )
+
+	0	formhtmlFormBuilder->outputControlLabel()	C:\wamp64\jelix\lib\jelix\plugins\tpl\html\function.ctrl_label.php : 52
+	1	jtpl_function_html_ctrl_label()	C:\wamp64\www\temp\tourisme\www\compiled\templates\modules\tourisme\activity_html_t_15.php : 51
+	2	template_e2f25657b25061a86fd942fcf8911252()	C:\wamp64\jelix\lib\jelix\tpl\jTpl.class.php : 287
+	3	jTpl->fetch()	C:\wamp64\www\tourisme\modules\tourisme\controllers\form.classic.php : 28
+	4	formCtrl->showActivity()	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php : 225
+	5	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-17 13:29:40	::1	notice	2017-10-17 13:29:40	::1	[8]	Trying to get property of non-object	C:\wamp64\www\tourisme\plugins\formbuilder\formhtml\formhtml.formbuilder.php	90
+	/tourisme/www/index.php?module=tourisme&action=form:showActivity
+array (   'module' => 'tourisme',   'action' => 'form:showActivity', )
+
+	0	formhtmlFormBuilder->outputControlLabel()	C:\wamp64\jelix\lib\jelix\plugins\tpl\html\function.ctrl_label.php : 52
+	1	jtpl_function_html_ctrl_label()	C:\wamp64\www\temp\tourisme\www\compiled\templates\modules\tourisme\activity_html_t_15.php : 51
+	2	template_e2f25657b25061a86fd942fcf8911252()	C:\wamp64\jelix\lib\jelix\tpl\jTpl.class.php : 287
+	3	jTpl->fetch()	C:\wamp64\www\tourisme\modules\tourisme\controllers\form.classic.php : 28
+	4	formCtrl->showActivity()	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php : 225
+	5	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-17 13:29:40	::1	notice	2017-10-17 13:29:40	::1	[8]	Undefined property: formhtmlFormBuilder::$ctrl	C:\wamp64\www\tourisme\plugins\formbuilder\formhtml\formhtml.formbuilder.php	90
+	/tourisme/www/index.php?module=tourisme&action=form:showActivity
+array (   'module' => 'tourisme',   'action' => 'form:showActivity', )
+
+	0	formhtmlFormBuilder->outputControlLabel()	C:\wamp64\jelix\lib\jelix\plugins\tpl\html\function.ctrl_label.php : 52
+	1	jtpl_function_html_ctrl_label()	C:\wamp64\www\temp\tourisme\www\compiled\templates\modules\tourisme\activity_html_t_15.php : 51
+	2	template_e2f25657b25061a86fd942fcf8911252()	C:\wamp64\jelix\lib\jelix\tpl\jTpl.class.php : 287
+	3	jTpl->fetch()	C:\wamp64\www\tourisme\modules\tourisme\controllers\form.classic.php : 28
+	4	formCtrl->showActivity()	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php : 225
+	5	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-17 13:29:40	::1	notice	2017-10-17 13:29:40	::1	[8]	Trying to get property of non-object	C:\wamp64\www\tourisme\plugins\formbuilder\formhtml\formhtml.formbuilder.php	90
+	/tourisme/www/index.php?module=tourisme&action=form:showActivity
+array (   'module' => 'tourisme',   'action' => 'form:showActivity', )
+
+	0	formhtmlFormBuilder->outputControlLabel()	C:\wamp64\jelix\lib\jelix\plugins\tpl\html\function.ctrl_label.php : 52
+	1	jtpl_function_html_ctrl_label()	C:\wamp64\www\temp\tourisme\www\compiled\templates\modules\tourisme\activity_html_t_15.php : 51
+	2	template_e2f25657b25061a86fd942fcf8911252()	C:\wamp64\jelix\lib\jelix\tpl\jTpl.class.php : 287
+	3	jTpl->fetch()	C:\wamp64\www\tourisme\modules\tourisme\controllers\form.classic.php : 28
+	4	formCtrl->showActivity()	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php : 225
+	5	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-17 13:30:12	::1	notice	2017-10-17 13:30:12	::1	[8]	Undefined property: formhtmlFormBuilder::$ctrl	C:\wamp64\www\tourisme\plugins\formbuilder\formhtml\formhtml.formbuilder.php	90
+	/tourisme/www/index.php?module=tourisme&action=form:showActivity
+array (   'module' => 'tourisme',   'action' => 'form:showActivity', )
+
+	0	formhtmlFormBuilder->outputControlLabel()	C:\wamp64\jelix\lib\jelix\plugins\tpl\html\function.ctrl_label.php : 52
+	1	jtpl_function_html_ctrl_label()	C:\wamp64\www\temp\tourisme\www\compiled\templates\modules\tourisme\activity_html_t_15.php : 51
+	2	template_e2f25657b25061a86fd942fcf8911252()	C:\wamp64\jelix\lib\jelix\tpl\jTpl.class.php : 287
+	3	jTpl->fetch()	C:\wamp64\www\tourisme\modules\tourisme\controllers\form.classic.php : 28
+	4	formCtrl->showActivity()	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php : 225
+	5	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-17 13:30:12	::1	notice	2017-10-17 13:30:12	::1	[8]	Undefined property: formhtmlFormBuilder::$ctrl	C:\wamp64\www\tourisme\plugins\formbuilder\formhtml\formhtml.formbuilder.php	91
+	/tourisme/www/index.php?module=tourisme&action=form:showActivity
+array (   'module' => 'tourisme',   'action' => 'form:showActivity', )
+
+	0	formhtmlFormBuilder->outputControlLabel()	C:\wamp64\jelix\lib\jelix\plugins\tpl\html\function.ctrl_label.php : 52
+	1	jtpl_function_html_ctrl_label()	C:\wamp64\www\temp\tourisme\www\compiled\templates\modules\tourisme\activity_html_t_15.php : 51
+	2	template_e2f25657b25061a86fd942fcf8911252()	C:\wamp64\jelix\lib\jelix\tpl\jTpl.class.php : 287
+	3	jTpl->fetch()	C:\wamp64\www\tourisme\modules\tourisme\controllers\form.classic.php : 28
+	4	formCtrl->showActivity()	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php : 225
+	5	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-17 13:30:12	::1	notice	2017-10-17 13:30:12	::1	[8]	Trying to get property of non-object	C:\wamp64\www\tourisme\plugins\formbuilder\formhtml\formhtml.formbuilder.php	91
+	/tourisme/www/index.php?module=tourisme&action=form:showActivity
+array (   'module' => 'tourisme',   'action' => 'form:showActivity', )
+
+	0	formhtmlFormBuilder->outputControlLabel()	C:\wamp64\jelix\lib\jelix\plugins\tpl\html\function.ctrl_label.php : 52
+	1	jtpl_function_html_ctrl_label()	C:\wamp64\www\temp\tourisme\www\compiled\templates\modules\tourisme\activity_html_t_15.php : 51
+	2	template_e2f25657b25061a86fd942fcf8911252()	C:\wamp64\jelix\lib\jelix\tpl\jTpl.class.php : 287
+	3	jTpl->fetch()	C:\wamp64\www\tourisme\modules\tourisme\controllers\form.classic.php : 28
+	4	formCtrl->showActivity()	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php : 225
+	5	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-17 13:30:12	::1	notice	2017-10-17 13:30:12	::1	[8]	Undefined property: formhtmlFormBuilder::$ctrl	C:\wamp64\www\tourisme\plugins\formbuilder\formhtml\formhtml.formbuilder.php	90
+	/tourisme/www/index.php?module=tourisme&action=form:showActivity
+array (   'module' => 'tourisme',   'action' => 'form:showActivity', )
+
+	0	formhtmlFormBuilder->outputControlLabel()	C:\wamp64\jelix\lib\jelix\plugins\tpl\html\function.ctrl_label.php : 52
+	1	jtpl_function_html_ctrl_label()	C:\wamp64\www\temp\tourisme\www\compiled\templates\modules\tourisme\activity_html_t_15.php : 51
+	2	template_e2f25657b25061a86fd942fcf8911252()	C:\wamp64\jelix\lib\jelix\tpl\jTpl.class.php : 287
+	3	jTpl->fetch()	C:\wamp64\www\tourisme\modules\tourisme\controllers\form.classic.php : 28
+	4	formCtrl->showActivity()	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php : 225
+	5	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-17 13:30:12	::1	notice	2017-10-17 13:30:12	::1	[8]	Undefined property: formhtmlFormBuilder::$ctrl	C:\wamp64\www\tourisme\plugins\formbuilder\formhtml\formhtml.formbuilder.php	91
+	/tourisme/www/index.php?module=tourisme&action=form:showActivity
+array (   'module' => 'tourisme',   'action' => 'form:showActivity', )
+
+	0	formhtmlFormBuilder->outputControlLabel()	C:\wamp64\jelix\lib\jelix\plugins\tpl\html\function.ctrl_label.php : 52
+	1	jtpl_function_html_ctrl_label()	C:\wamp64\www\temp\tourisme\www\compiled\templates\modules\tourisme\activity_html_t_15.php : 51
+	2	template_e2f25657b25061a86fd942fcf8911252()	C:\wamp64\jelix\lib\jelix\tpl\jTpl.class.php : 287
+	3	jTpl->fetch()	C:\wamp64\www\tourisme\modules\tourisme\controllers\form.classic.php : 28
+	4	formCtrl->showActivity()	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php : 225
+	5	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-17 13:30:12	::1	notice	2017-10-17 13:30:12	::1	[8]	Trying to get property of non-object	C:\wamp64\www\tourisme\plugins\formbuilder\formhtml\formhtml.formbuilder.php	91
+	/tourisme/www/index.php?module=tourisme&action=form:showActivity
+array (   'module' => 'tourisme',   'action' => 'form:showActivity', )
+
+	0	formhtmlFormBuilder->outputControlLabel()	C:\wamp64\jelix\lib\jelix\plugins\tpl\html\function.ctrl_label.php : 52
+	1	jtpl_function_html_ctrl_label()	C:\wamp64\www\temp\tourisme\www\compiled\templates\modules\tourisme\activity_html_t_15.php : 51
+	2	template_e2f25657b25061a86fd942fcf8911252()	C:\wamp64\jelix\lib\jelix\tpl\jTpl.class.php : 287
+	3	jTpl->fetch()	C:\wamp64\www\tourisme\modules\tourisme\controllers\form.classic.php : 28
+	4	formCtrl->showActivity()	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php : 225
+	5	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-17 13:30:22	::1	notice	2017-10-17 13:30:22	::1	[8]	Undefined property: formhtmlFormBuilder::$ctrl	C:\wamp64\www\tourisme\plugins\formbuilder\formhtml\formhtml.formbuilder.php	91
+	/tourisme/www/index.php?module=tourisme&action=form:showActivity
+array (   'module' => 'tourisme',   'action' => 'form:showActivity', )
+
+	0	formhtmlFormBuilder->outputControlLabel()	C:\wamp64\jelix\lib\jelix\plugins\tpl\html\function.ctrl_label.php : 52
+	1	jtpl_function_html_ctrl_label()	C:\wamp64\www\temp\tourisme\www\compiled\templates\modules\tourisme\activity_html_t_15.php : 51
+	2	template_e2f25657b25061a86fd942fcf8911252()	C:\wamp64\jelix\lib\jelix\tpl\jTpl.class.php : 287
+	3	jTpl->fetch()	C:\wamp64\www\tourisme\modules\tourisme\controllers\form.classic.php : 28
+	4	formCtrl->showActivity()	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php : 225
+	5	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-17 13:30:22	::1	notice	2017-10-17 13:30:22	::1	[8]	Trying to get property of non-object	C:\wamp64\www\tourisme\plugins\formbuilder\formhtml\formhtml.formbuilder.php	91
+	/tourisme/www/index.php?module=tourisme&action=form:showActivity
+array (   'module' => 'tourisme',   'action' => 'form:showActivity', )
+
+	0	formhtmlFormBuilder->outputControlLabel()	C:\wamp64\jelix\lib\jelix\plugins\tpl\html\function.ctrl_label.php : 52
+	1	jtpl_function_html_ctrl_label()	C:\wamp64\www\temp\tourisme\www\compiled\templates\modules\tourisme\activity_html_t_15.php : 51
+	2	template_e2f25657b25061a86fd942fcf8911252()	C:\wamp64\jelix\lib\jelix\tpl\jTpl.class.php : 287
+	3	jTpl->fetch()	C:\wamp64\www\tourisme\modules\tourisme\controllers\form.classic.php : 28
+	4	formCtrl->showActivity()	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php : 225
+	5	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-17 13:30:22	::1	notice	2017-10-17 13:30:22	::1	[8]	Undefined property: formhtmlFormBuilder::$ctrl	C:\wamp64\www\tourisme\plugins\formbuilder\formhtml\formhtml.formbuilder.php	91
+	/tourisme/www/index.php?module=tourisme&action=form:showActivity
+array (   'module' => 'tourisme',   'action' => 'form:showActivity', )
+
+	0	formhtmlFormBuilder->outputControlLabel()	C:\wamp64\jelix\lib\jelix\plugins\tpl\html\function.ctrl_label.php : 52
+	1	jtpl_function_html_ctrl_label()	C:\wamp64\www\temp\tourisme\www\compiled\templates\modules\tourisme\activity_html_t_15.php : 51
+	2	template_e2f25657b25061a86fd942fcf8911252()	C:\wamp64\jelix\lib\jelix\tpl\jTpl.class.php : 287
+	3	jTpl->fetch()	C:\wamp64\www\tourisme\modules\tourisme\controllers\form.classic.php : 28
+	4	formCtrl->showActivity()	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php : 225
+	5	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-17 13:30:22	::1	notice	2017-10-17 13:30:22	::1	[8]	Trying to get property of non-object	C:\wamp64\www\tourisme\plugins\formbuilder\formhtml\formhtml.formbuilder.php	91
+	/tourisme/www/index.php?module=tourisme&action=form:showActivity
+array (   'module' => 'tourisme',   'action' => 'form:showActivity', )
+
+	0	formhtmlFormBuilder->outputControlLabel()	C:\wamp64\jelix\lib\jelix\plugins\tpl\html\function.ctrl_label.php : 52
+	1	jtpl_function_html_ctrl_label()	C:\wamp64\www\temp\tourisme\www\compiled\templates\modules\tourisme\activity_html_t_15.php : 51
+	2	template_e2f25657b25061a86fd942fcf8911252()	C:\wamp64\jelix\lib\jelix\tpl\jTpl.class.php : 287
+	3	jTpl->fetch()	C:\wamp64\www\tourisme\modules\tourisme\controllers\form.classic.php : 28
+	4	formCtrl->showActivity()	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php : 225
+	5	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-17 13:30:23	::1	notice	2017-10-17 13:30:23	::1	[8]	Undefined property: formhtmlFormBuilder::$ctrl	C:\wamp64\www\tourisme\plugins\formbuilder\formhtml\formhtml.formbuilder.php	91
+	/tourisme/www/index.php?module=tourisme&action=form:showActivity
+array (   'module' => 'tourisme',   'action' => 'form:showActivity', )
+
+	0	formhtmlFormBuilder->outputControlLabel()	C:\wamp64\jelix\lib\jelix\plugins\tpl\html\function.ctrl_label.php : 52
+	1	jtpl_function_html_ctrl_label()	C:\wamp64\www\temp\tourisme\www\compiled\templates\modules\tourisme\activity_html_t_15.php : 51
+	2	template_e2f25657b25061a86fd942fcf8911252()	C:\wamp64\jelix\lib\jelix\tpl\jTpl.class.php : 287
+	3	jTpl->fetch()	C:\wamp64\www\tourisme\modules\tourisme\controllers\form.classic.php : 28
+	4	formCtrl->showActivity()	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php : 225
+	5	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-17 13:30:23	::1	notice	2017-10-17 13:30:23	::1	[8]	Trying to get property of non-object	C:\wamp64\www\tourisme\plugins\formbuilder\formhtml\formhtml.formbuilder.php	91
+	/tourisme/www/index.php?module=tourisme&action=form:showActivity
+array (   'module' => 'tourisme',   'action' => 'form:showActivity', )
+
+	0	formhtmlFormBuilder->outputControlLabel()	C:\wamp64\jelix\lib\jelix\plugins\tpl\html\function.ctrl_label.php : 52
+	1	jtpl_function_html_ctrl_label()	C:\wamp64\www\temp\tourisme\www\compiled\templates\modules\tourisme\activity_html_t_15.php : 51
+	2	template_e2f25657b25061a86fd942fcf8911252()	C:\wamp64\jelix\lib\jelix\tpl\jTpl.class.php : 287
+	3	jTpl->fetch()	C:\wamp64\www\tourisme\modules\tourisme\controllers\form.classic.php : 28
+	4	formCtrl->showActivity()	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php : 225
+	5	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-17 13:30:23	::1	notice	2017-10-17 13:30:23	::1	[8]	Undefined property: formhtmlFormBuilder::$ctrl	C:\wamp64\www\tourisme\plugins\formbuilder\formhtml\formhtml.formbuilder.php	91
+	/tourisme/www/index.php?module=tourisme&action=form:showActivity
+array (   'module' => 'tourisme',   'action' => 'form:showActivity', )
+
+	0	formhtmlFormBuilder->outputControlLabel()	C:\wamp64\jelix\lib\jelix\plugins\tpl\html\function.ctrl_label.php : 52
+	1	jtpl_function_html_ctrl_label()	C:\wamp64\www\temp\tourisme\www\compiled\templates\modules\tourisme\activity_html_t_15.php : 51
+	2	template_e2f25657b25061a86fd942fcf8911252()	C:\wamp64\jelix\lib\jelix\tpl\jTpl.class.php : 287
+	3	jTpl->fetch()	C:\wamp64\www\tourisme\modules\tourisme\controllers\form.classic.php : 28
+	4	formCtrl->showActivity()	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php : 225
+	5	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-17 13:30:23	::1	notice	2017-10-17 13:30:23	::1	[8]	Trying to get property of non-object	C:\wamp64\www\tourisme\plugins\formbuilder\formhtml\formhtml.formbuilder.php	91
+	/tourisme/www/index.php?module=tourisme&action=form:showActivity
+array (   'module' => 'tourisme',   'action' => 'form:showActivity', )
+
+	0	formhtmlFormBuilder->outputControlLabel()	C:\wamp64\jelix\lib\jelix\plugins\tpl\html\function.ctrl_label.php : 52
+	1	jtpl_function_html_ctrl_label()	C:\wamp64\www\temp\tourisme\www\compiled\templates\modules\tourisme\activity_html_t_15.php : 51
+	2	template_e2f25657b25061a86fd942fcf8911252()	C:\wamp64\jelix\lib\jelix\tpl\jTpl.class.php : 287
+	3	jTpl->fetch()	C:\wamp64\www\tourisme\modules\tourisme\controllers\form.classic.php : 28
+	4	formCtrl->showActivity()	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php : 225
+	5	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-17 13:30:42	::1	notice	2017-10-17 13:30:42	::1	[8]	Undefined property: formhtmlFormBuilder::$ctrl	C:\wamp64\www\tourisme\plugins\formbuilder\formhtml\formhtml.formbuilder.php	91
+	/tourisme/www/index.php?module=tourisme&action=form:showActivity
+array (   'module' => 'tourisme',   'action' => 'form:showActivity', )
+
+	0	formhtmlFormBuilder->outputControlLabel()	C:\wamp64\jelix\lib\jelix\plugins\tpl\html\function.ctrl_label.php : 52
+	1	jtpl_function_html_ctrl_label()	C:\wamp64\www\temp\tourisme\www\compiled\templates\modules\tourisme\activity_html_t_15.php : 51
+	2	template_e2f25657b25061a86fd942fcf8911252()	C:\wamp64\jelix\lib\jelix\tpl\jTpl.class.php : 287
+	3	jTpl->fetch()	C:\wamp64\www\tourisme\modules\tourisme\controllers\form.classic.php : 28
+	4	formCtrl->showActivity()	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php : 225
+	5	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-17 13:30:42	::1	notice	2017-10-17 13:30:42	::1	[8]	Trying to get property of non-object	C:\wamp64\www\tourisme\plugins\formbuilder\formhtml\formhtml.formbuilder.php	91
+	/tourisme/www/index.php?module=tourisme&action=form:showActivity
+array (   'module' => 'tourisme',   'action' => 'form:showActivity', )
+
+	0	formhtmlFormBuilder->outputControlLabel()	C:\wamp64\jelix\lib\jelix\plugins\tpl\html\function.ctrl_label.php : 52
+	1	jtpl_function_html_ctrl_label()	C:\wamp64\www\temp\tourisme\www\compiled\templates\modules\tourisme\activity_html_t_15.php : 51
+	2	template_e2f25657b25061a86fd942fcf8911252()	C:\wamp64\jelix\lib\jelix\tpl\jTpl.class.php : 287
+	3	jTpl->fetch()	C:\wamp64\www\tourisme\modules\tourisme\controllers\form.classic.php : 28
+	4	formCtrl->showActivity()	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php : 225
+	5	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-17 13:30:42	::1	notice	2017-10-17 13:30:42	::1	[8]	Undefined property: formhtmlFormBuilder::$ctrl	C:\wamp64\www\tourisme\plugins\formbuilder\formhtml\formhtml.formbuilder.php	91
+	/tourisme/www/index.php?module=tourisme&action=form:showActivity
+array (   'module' => 'tourisme',   'action' => 'form:showActivity', )
+
+	0	formhtmlFormBuilder->outputControlLabel()	C:\wamp64\jelix\lib\jelix\plugins\tpl\html\function.ctrl_label.php : 52
+	1	jtpl_function_html_ctrl_label()	C:\wamp64\www\temp\tourisme\www\compiled\templates\modules\tourisme\activity_html_t_15.php : 51
+	2	template_e2f25657b25061a86fd942fcf8911252()	C:\wamp64\jelix\lib\jelix\tpl\jTpl.class.php : 287
+	3	jTpl->fetch()	C:\wamp64\www\tourisme\modules\tourisme\controllers\form.classic.php : 28
+	4	formCtrl->showActivity()	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php : 225
+	5	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-17 13:30:42	::1	notice	2017-10-17 13:30:42	::1	[8]	Trying to get property of non-object	C:\wamp64\www\tourisme\plugins\formbuilder\formhtml\formhtml.formbuilder.php	91
+	/tourisme/www/index.php?module=tourisme&action=form:showActivity
+array (   'module' => 'tourisme',   'action' => 'form:showActivity', )
+
+	0	formhtmlFormBuilder->outputControlLabel()	C:\wamp64\jelix\lib\jelix\plugins\tpl\html\function.ctrl_label.php : 52
+	1	jtpl_function_html_ctrl_label()	C:\wamp64\www\temp\tourisme\www\compiled\templates\modules\tourisme\activity_html_t_15.php : 51
+	2	template_e2f25657b25061a86fd942fcf8911252()	C:\wamp64\jelix\lib\jelix\tpl\jTpl.class.php : 287
+	3	jTpl->fetch()	C:\wamp64\www\tourisme\modules\tourisme\controllers\form.classic.php : 28
+	4	formCtrl->showActivity()	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php : 225
+	5	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-17 13:30:44	::1	notice	2017-10-17 13:30:44	::1	[8]	Undefined property: formhtmlFormBuilder::$ctrl	C:\wamp64\www\tourisme\plugins\formbuilder\formhtml\formhtml.formbuilder.php	91
+	/tourisme/www/index.php?module=tourisme&action=form:showActivity
+array (   'module' => 'tourisme',   'action' => 'form:showActivity', )
+
+	0	formhtmlFormBuilder->outputControlLabel()	C:\wamp64\jelix\lib\jelix\plugins\tpl\html\function.ctrl_label.php : 52
+	1	jtpl_function_html_ctrl_label()	C:\wamp64\www\temp\tourisme\www\compiled\templates\modules\tourisme\activity_html_t_15.php : 51
+	2	template_e2f25657b25061a86fd942fcf8911252()	C:\wamp64\jelix\lib\jelix\tpl\jTpl.class.php : 287
+	3	jTpl->fetch()	C:\wamp64\www\tourisme\modules\tourisme\controllers\form.classic.php : 28
+	4	formCtrl->showActivity()	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php : 225
+	5	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-17 13:30:44	::1	notice	2017-10-17 13:30:44	::1	[8]	Trying to get property of non-object	C:\wamp64\www\tourisme\plugins\formbuilder\formhtml\formhtml.formbuilder.php	91
+	/tourisme/www/index.php?module=tourisme&action=form:showActivity
+array (   'module' => 'tourisme',   'action' => 'form:showActivity', )
+
+	0	formhtmlFormBuilder->outputControlLabel()	C:\wamp64\jelix\lib\jelix\plugins\tpl\html\function.ctrl_label.php : 52
+	1	jtpl_function_html_ctrl_label()	C:\wamp64\www\temp\tourisme\www\compiled\templates\modules\tourisme\activity_html_t_15.php : 51
+	2	template_e2f25657b25061a86fd942fcf8911252()	C:\wamp64\jelix\lib\jelix\tpl\jTpl.class.php : 287
+	3	jTpl->fetch()	C:\wamp64\www\tourisme\modules\tourisme\controllers\form.classic.php : 28
+	4	formCtrl->showActivity()	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php : 225
+	5	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-17 13:30:44	::1	notice	2017-10-17 13:30:44	::1	[8]	Undefined property: formhtmlFormBuilder::$ctrl	C:\wamp64\www\tourisme\plugins\formbuilder\formhtml\formhtml.formbuilder.php	91
+	/tourisme/www/index.php?module=tourisme&action=form:showActivity
+array (   'module' => 'tourisme',   'action' => 'form:showActivity', )
+
+	0	formhtmlFormBuilder->outputControlLabel()	C:\wamp64\jelix\lib\jelix\plugins\tpl\html\function.ctrl_label.php : 52
+	1	jtpl_function_html_ctrl_label()	C:\wamp64\www\temp\tourisme\www\compiled\templates\modules\tourisme\activity_html_t_15.php : 51
+	2	template_e2f25657b25061a86fd942fcf8911252()	C:\wamp64\jelix\lib\jelix\tpl\jTpl.class.php : 287
+	3	jTpl->fetch()	C:\wamp64\www\tourisme\modules\tourisme\controllers\form.classic.php : 28
+	4	formCtrl->showActivity()	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php : 225
+	5	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-17 13:30:44	::1	notice	2017-10-17 13:30:44	::1	[8]	Trying to get property of non-object	C:\wamp64\www\tourisme\plugins\formbuilder\formhtml\formhtml.formbuilder.php	91
+	/tourisme/www/index.php?module=tourisme&action=form:showActivity
+array (   'module' => 'tourisme',   'action' => 'form:showActivity', )
+
+	0	formhtmlFormBuilder->outputControlLabel()	C:\wamp64\jelix\lib\jelix\plugins\tpl\html\function.ctrl_label.php : 52
+	1	jtpl_function_html_ctrl_label()	C:\wamp64\www\temp\tourisme\www\compiled\templates\modules\tourisme\activity_html_t_15.php : 51
+	2	template_e2f25657b25061a86fd942fcf8911252()	C:\wamp64\jelix\lib\jelix\tpl\jTpl.class.php : 287
+	3	jTpl->fetch()	C:\wamp64\www\tourisme\modules\tourisme\controllers\form.classic.php : 28
+	4	formCtrl->showActivity()	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php : 225
+	5	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-17 13:35:34	::1	error	2017-10-17 13:35:34	::1	[0]	Widget menulist_bulma not found	C:\wamp64\www\tourisme\plugins\formbuilder\formhtml\formhtml.formbuilder.php	35
+	/tourisme/www/index.php?module=tourisme&action=form:showActivity
+array (   'module' => 'tourisme',   'action' => 'form:showActivity', )
+
+	0	formhtmlFormBuilder->getWidget()	C:\wamp64\www\tourisme\plugins\formbuilder\formhtml\formhtml.formbuilder.php : 88
+	1	formhtmlFormBuilder->outputControlLabel()	C:\wamp64\jelix\lib\jelix\plugins\tpl\html\function.ctrl_label.php : 52
+	2	jtpl_function_html_ctrl_label()	C:\wamp64\www\temp\tourisme\www\compiled\templates\modules\tourisme\activity_html_t_15.php : 51
+	3	template_e2f25657b25061a86fd942fcf8911252()	C:\wamp64\jelix\lib\jelix\tpl\jTpl.class.php : 287
+	4	jTpl->fetch()	C:\wamp64\www\tourisme\modules\tourisme\controllers\form.classic.php : 28
+	5	formCtrl->showActivity()	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php : 225
+	6	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-17 13:41:31	::1	error	2017-10-17 13:41:31	::1	[0]	Widget menulist_bulma not found	C:\wamp64\www\tourisme\plugins\formbuilder\formhtml\formhtml.formbuilder.php	35
+	/tourisme/www/index.php?module=tourisme&action=form:showActivity
+array (   'module' => 'tourisme',   'action' => 'form:showActivity', )
+
+	0	formhtmlFormBuilder->getWidget()	C:\wamp64\www\tourisme\plugins\formbuilder\formhtml\formhtml.formbuilder.php : 88
+	1	formhtmlFormBuilder->outputControlLabel()	C:\wamp64\jelix\lib\jelix\plugins\tpl\html\function.ctrl_label.php : 52
+	2	jtpl_function_html_ctrl_label()	C:\wamp64\www\temp\tourisme\www\compiled\templates\modules\tourisme\activity_html_t_15.php : 51
+	3	template_e2f25657b25061a86fd942fcf8911252()	C:\wamp64\jelix\lib\jelix\tpl\jTpl.class.php : 287
+	4	jTpl->fetch()	C:\wamp64\www\tourisme\modules\tourisme\controllers\form.classic.php : 28
+	5	formCtrl->showActivity()	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php : 225
+	6	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-17 13:41:47	::1	error	2017-10-17 13:41:47	::1	[0]	Widget menulist_bulma not found	C:\wamp64\www\tourisme\plugins\formbuilder\formhtml\formhtml.formbuilder.php	35
+	/tourisme/www/index.php?module=tourisme&action=form:showActivity
+array (   'module' => 'tourisme',   'action' => 'form:showActivity', )
+
+	0	formhtmlFormBuilder->getWidget()	C:\wamp64\www\tourisme\plugins\formbuilder\formhtml\formhtml.formbuilder.php : 88
+	1	formhtmlFormBuilder->outputControlLabel()	C:\wamp64\jelix\lib\jelix\plugins\tpl\html\function.ctrl_label.php : 52
+	2	jtpl_function_html_ctrl_label()	C:\wamp64\www\temp\tourisme\www\compiled\templates\modules\tourisme\activity_html_t_15.php : 51
+	3	template_e2f25657b25061a86fd942fcf8911252()	C:\wamp64\jelix\lib\jelix\tpl\jTpl.class.php : 287
+	4	jTpl->fetch()	C:\wamp64\www\tourisme\modules\tourisme\controllers\form.classic.php : 28
+	5	formCtrl->showActivity()	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php : 225
+	6	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-17 13:41:48	::1	error	2017-10-17 13:41:48	::1	[0]	Widget menulist_bulma not found	C:\wamp64\www\tourisme\plugins\formbuilder\formhtml\formhtml.formbuilder.php	35
+	/tourisme/www/index.php?module=tourisme&action=form:showActivity
+array (   'module' => 'tourisme',   'action' => 'form:showActivity', )
+
+	0	formhtmlFormBuilder->getWidget()	C:\wamp64\www\tourisme\plugins\formbuilder\formhtml\formhtml.formbuilder.php : 88
+	1	formhtmlFormBuilder->outputControlLabel()	C:\wamp64\jelix\lib\jelix\plugins\tpl\html\function.ctrl_label.php : 52
+	2	jtpl_function_html_ctrl_label()	C:\wamp64\www\temp\tourisme\www\compiled\templates\modules\tourisme\activity_html_t_15.php : 51
+	3	template_e2f25657b25061a86fd942fcf8911252()	C:\wamp64\jelix\lib\jelix\tpl\jTpl.class.php : 287
+	4	jTpl->fetch()	C:\wamp64\www\tourisme\modules\tourisme\controllers\form.classic.php : 28
+	5	formCtrl->showActivity()	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php : 225
+	6	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-17 13:41:48	::1	error	2017-10-17 13:41:48	::1	[0]	Widget menulist_bulma not found	C:\wamp64\www\tourisme\plugins\formbuilder\formhtml\formhtml.formbuilder.php	35
+	/tourisme/www/index.php?module=tourisme&action=form:showActivity
+array (   'module' => 'tourisme',   'action' => 'form:showActivity', )
+
+	0	formhtmlFormBuilder->getWidget()	C:\wamp64\www\tourisme\plugins\formbuilder\formhtml\formhtml.formbuilder.php : 88
+	1	formhtmlFormBuilder->outputControlLabel()	C:\wamp64\jelix\lib\jelix\plugins\tpl\html\function.ctrl_label.php : 52
+	2	jtpl_function_html_ctrl_label()	C:\wamp64\www\temp\tourisme\www\compiled\templates\modules\tourisme\activity_html_t_15.php : 51
+	3	template_e2f25657b25061a86fd942fcf8911252()	C:\wamp64\jelix\lib\jelix\tpl\jTpl.class.php : 287
+	4	jTpl->fetch()	C:\wamp64\www\tourisme\modules\tourisme\controllers\form.classic.php : 28
+	5	formCtrl->showActivity()	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php : 225
+	6	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-17 13:42:21	::1	error	2017-10-17 13:42:21	::1	[0]	Widget menulist_bulma not found	C:\wamp64\www\tourisme\plugins\formbuilder\formhtml\formhtml.formbuilder.php	35
+	/tourisme/www/index.php?module=tourisme&action=form:showActivity
+array (   'module' => 'tourisme',   'action' => 'form:showActivity', )
+
+	0	formhtmlFormBuilder->getWidget()	C:\wamp64\www\tourisme\plugins\formbuilder\formhtml\formhtml.formbuilder.php : 88
+	1	formhtmlFormBuilder->outputControlLabel()	C:\wamp64\jelix\lib\jelix\plugins\tpl\html\function.ctrl_label.php : 52
+	2	jtpl_function_html_ctrl_label()	C:\wamp64\www\temp\tourisme\www\compiled\templates\modules\tourisme\activity_html_t_15.php : 51
+	3	template_e2f25657b25061a86fd942fcf8911252()	C:\wamp64\jelix\lib\jelix\tpl\jTpl.class.php : 287
+	4	jTpl->fetch()	C:\wamp64\www\tourisme\modules\tourisme\controllers\form.classic.php : 28
+	5	formCtrl->showActivity()	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php : 225
+	6	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-17 13:42:22	::1	error	2017-10-17 13:42:22	::1	[0]	Widget menulist_bulma not found	C:\wamp64\www\tourisme\plugins\formbuilder\formhtml\formhtml.formbuilder.php	35
+	/tourisme/www/index.php?module=tourisme&action=form:showActivity
+array (   'module' => 'tourisme',   'action' => 'form:showActivity', )
+
+	0	formhtmlFormBuilder->getWidget()	C:\wamp64\www\tourisme\plugins\formbuilder\formhtml\formhtml.formbuilder.php : 88
+	1	formhtmlFormBuilder->outputControlLabel()	C:\wamp64\jelix\lib\jelix\plugins\tpl\html\function.ctrl_label.php : 52
+	2	jtpl_function_html_ctrl_label()	C:\wamp64\www\temp\tourisme\www\compiled\templates\modules\tourisme\activity_html_t_15.php : 51
+	3	template_e2f25657b25061a86fd942fcf8911252()	C:\wamp64\jelix\lib\jelix\tpl\jTpl.class.php : 287
+	4	jTpl->fetch()	C:\wamp64\www\tourisme\modules\tourisme\controllers\form.classic.php : 28
+	5	formCtrl->showActivity()	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php : 225
+	6	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-17 13:42:22	::1	error	2017-10-17 13:42:22	::1	[0]	Widget menulist_bulma not found	C:\wamp64\www\tourisme\plugins\formbuilder\formhtml\formhtml.formbuilder.php	35
+	/tourisme/www/index.php?module=tourisme&action=form:showActivity
+array (   'module' => 'tourisme',   'action' => 'form:showActivity', )
+
+	0	formhtmlFormBuilder->getWidget()	C:\wamp64\www\tourisme\plugins\formbuilder\formhtml\formhtml.formbuilder.php : 88
+	1	formhtmlFormBuilder->outputControlLabel()	C:\wamp64\jelix\lib\jelix\plugins\tpl\html\function.ctrl_label.php : 52
+	2	jtpl_function_html_ctrl_label()	C:\wamp64\www\temp\tourisme\www\compiled\templates\modules\tourisme\activity_html_t_15.php : 51
+	3	template_e2f25657b25061a86fd942fcf8911252()	C:\wamp64\jelix\lib\jelix\tpl\jTpl.class.php : 287
+	4	jTpl->fetch()	C:\wamp64\www\tourisme\modules\tourisme\controllers\form.classic.php : 28
+	5	formCtrl->showActivity()	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php : 225
+	6	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-17 13:42:23	::1	error	2017-10-17 13:42:23	::1	[0]	Widget menulist_bulma not found	C:\wamp64\www\tourisme\plugins\formbuilder\formhtml\formhtml.formbuilder.php	35
+	/tourisme/www/index.php?module=tourisme&action=form:showActivity
+array (   'module' => 'tourisme',   'action' => 'form:showActivity', )
+
+	0	formhtmlFormBuilder->getWidget()	C:\wamp64\www\tourisme\plugins\formbuilder\formhtml\formhtml.formbuilder.php : 88
+	1	formhtmlFormBuilder->outputControlLabel()	C:\wamp64\jelix\lib\jelix\plugins\tpl\html\function.ctrl_label.php : 52
+	2	jtpl_function_html_ctrl_label()	C:\wamp64\www\temp\tourisme\www\compiled\templates\modules\tourisme\activity_html_t_15.php : 51
+	3	template_e2f25657b25061a86fd942fcf8911252()	C:\wamp64\jelix\lib\jelix\tpl\jTpl.class.php : 287
+	4	jTpl->fetch()	C:\wamp64\www\tourisme\modules\tourisme\controllers\form.classic.php : 28
+	5	formCtrl->showActivity()	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php : 225
+	6	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-17 13:42:23	::1	error	2017-10-17 13:42:23	::1	[0]	Widget menulist_bulma not found	C:\wamp64\www\tourisme\plugins\formbuilder\formhtml\formhtml.formbuilder.php	35
+	/tourisme/www/index.php?module=tourisme&action=form:showActivity
+array (   'module' => 'tourisme',   'action' => 'form:showActivity', )
+
+	0	formhtmlFormBuilder->getWidget()	C:\wamp64\www\tourisme\plugins\formbuilder\formhtml\formhtml.formbuilder.php : 88
+	1	formhtmlFormBuilder->outputControlLabel()	C:\wamp64\jelix\lib\jelix\plugins\tpl\html\function.ctrl_label.php : 52
+	2	jtpl_function_html_ctrl_label()	C:\wamp64\www\temp\tourisme\www\compiled\templates\modules\tourisme\activity_html_t_15.php : 51
+	3	template_e2f25657b25061a86fd942fcf8911252()	C:\wamp64\jelix\lib\jelix\tpl\jTpl.class.php : 287
+	4	jTpl->fetch()	C:\wamp64\www\tourisme\modules\tourisme\controllers\form.classic.php : 28
+	5	formCtrl->showActivity()	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php : 225
+	6	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-17 13:52:04	::1	notice	2017-10-17 13:52:04	::1	[8]	Undefined variable: ctrl	C:\wamp64\www\tourisme\plugins\formwidget\menulist_bulma\menulist_bulma.formwidget.php	42
+	/tourisme/www/index.php?module=tourisme&action=form:showActivity
+array (   'module' => 'tourisme',   'action' => 'form:showActivity', )
+
+	0	menulist_bulmaFormWidget->outputControl()	C:\wamp64\www\tourisme\plugins\formbuilder\formhtml\formhtml.formbuilder.php : 80
+	1	formhtmlFormBuilder->outputControl()	C:\wamp64\jelix\lib\jelix\plugins\tpl\html\function.ctrl_control.php : 43
+	2	jtpl_function_html_ctrl_control()	C:\wamp64\www\temp\tourisme\www\compiled\templates\modules\tourisme\activity_html_t_15.php : 53
+	3	template_e2f25657b25061a86fd942fcf8911252()	C:\wamp64\jelix\lib\jelix\tpl\jTpl.class.php : 287
+	4	jTpl->fetch()	C:\wamp64\www\tourisme\modules\tourisme\controllers\form.classic.php : 28
+	5	formCtrl->showActivity()	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php : 225
+	6	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-17 13:52:04	::1	notice	2017-10-17 13:52:04	::1	[8]	Trying to get property of non-object	C:\wamp64\www\tourisme\plugins\formwidget\menulist_bulma\menulist_bulma.formwidget.php	42
+	/tourisme/www/index.php?module=tourisme&action=form:showActivity
+array (   'module' => 'tourisme',   'action' => 'form:showActivity', )
+
+	0	menulist_bulmaFormWidget->outputControl()	C:\wamp64\www\tourisme\plugins\formbuilder\formhtml\formhtml.formbuilder.php : 80
+	1	formhtmlFormBuilder->outputControl()	C:\wamp64\jelix\lib\jelix\plugins\tpl\html\function.ctrl_control.php : 43
+	2	jtpl_function_html_ctrl_control()	C:\wamp64\www\temp\tourisme\www\compiled\templates\modules\tourisme\activity_html_t_15.php : 53
+	3	template_e2f25657b25061a86fd942fcf8911252()	C:\wamp64\jelix\lib\jelix\tpl\jTpl.class.php : 287
+	4	jTpl->fetch()	C:\wamp64\www\tourisme\modules\tourisme\controllers\form.classic.php : 28
+	5	formCtrl->showActivity()	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php : 225
+	6	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-17 13:52:05	::1	notice	2017-10-17 13:52:05	::1	[8]	Undefined variable: ctrl	C:\wamp64\www\tourisme\plugins\formwidget\menulist_bulma\menulist_bulma.formwidget.php	42
+	/tourisme/www/index.php?module=tourisme&action=form:showActivity
+array (   'module' => 'tourisme',   'action' => 'form:showActivity', )
+
+	0	menulist_bulmaFormWidget->outputControl()	C:\wamp64\www\tourisme\plugins\formbuilder\formhtml\formhtml.formbuilder.php : 80
+	1	formhtmlFormBuilder->outputControl()	C:\wamp64\jelix\lib\jelix\plugins\tpl\html\function.ctrl_control.php : 43
+	2	jtpl_function_html_ctrl_control()	C:\wamp64\www\temp\tourisme\www\compiled\templates\modules\tourisme\activity_html_t_15.php : 53
+	3	template_e2f25657b25061a86fd942fcf8911252()	C:\wamp64\jelix\lib\jelix\tpl\jTpl.class.php : 287
+	4	jTpl->fetch()	C:\wamp64\www\tourisme\modules\tourisme\controllers\form.classic.php : 28
+	5	formCtrl->showActivity()	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php : 225
+	6	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-17 13:52:05	::1	notice	2017-10-17 13:52:05	::1	[8]	Trying to get property of non-object	C:\wamp64\www\tourisme\plugins\formwidget\menulist_bulma\menulist_bulma.formwidget.php	42
+	/tourisme/www/index.php?module=tourisme&action=form:showActivity
+array (   'module' => 'tourisme',   'action' => 'form:showActivity', )
+
+	0	menulist_bulmaFormWidget->outputControl()	C:\wamp64\www\tourisme\plugins\formbuilder\formhtml\formhtml.formbuilder.php : 80
+	1	formhtmlFormBuilder->outputControl()	C:\wamp64\jelix\lib\jelix\plugins\tpl\html\function.ctrl_control.php : 43
+	2	jtpl_function_html_ctrl_control()	C:\wamp64\www\temp\tourisme\www\compiled\templates\modules\tourisme\activity_html_t_15.php : 53
+	3	template_e2f25657b25061a86fd942fcf8911252()	C:\wamp64\jelix\lib\jelix\tpl\jTpl.class.php : 287
+	4	jTpl->fetch()	C:\wamp64\www\tourisme\modules\tourisme\controllers\form.classic.php : 28
+	5	formCtrl->showActivity()	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php : 225
+	6	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-17 13:52:23	::1	notice	2017-10-17 13:52:23	::1	[8]	Undefined variable: ctrl	C:\wamp64\www\tourisme\plugins\formwidget\menulist_bulma\menulist_bulma.formwidget.php	43
+	/tourisme/www/index.php?module=tourisme&action=form:showActivity
+array (   'module' => 'tourisme',   'action' => 'form:showActivity', )
+
+	0	menulist_bulmaFormWidget->outputControl()	C:\wamp64\www\tourisme\plugins\formbuilder\formhtml\formhtml.formbuilder.php : 80
+	1	formhtmlFormBuilder->outputControl()	C:\wamp64\jelix\lib\jelix\plugins\tpl\html\function.ctrl_control.php : 43
+	2	jtpl_function_html_ctrl_control()	C:\wamp64\www\temp\tourisme\www\compiled\templates\modules\tourisme\activity_html_t_15.php : 53
+	3	template_e2f25657b25061a86fd942fcf8911252()	C:\wamp64\jelix\lib\jelix\tpl\jTpl.class.php : 287
+	4	jTpl->fetch()	C:\wamp64\www\tourisme\modules\tourisme\controllers\form.classic.php : 28
+	5	formCtrl->showActivity()	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php : 225
+	6	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-17 13:52:23	::1	notice	2017-10-17 13:52:23	::1	[8]	Trying to get property of non-object	C:\wamp64\www\tourisme\plugins\formwidget\menulist_bulma\menulist_bulma.formwidget.php	43
+	/tourisme/www/index.php?module=tourisme&action=form:showActivity
+array (   'module' => 'tourisme',   'action' => 'form:showActivity', )
+
+	0	menulist_bulmaFormWidget->outputControl()	C:\wamp64\www\tourisme\plugins\formbuilder\formhtml\formhtml.formbuilder.php : 80
+	1	formhtmlFormBuilder->outputControl()	C:\wamp64\jelix\lib\jelix\plugins\tpl\html\function.ctrl_control.php : 43
+	2	jtpl_function_html_ctrl_control()	C:\wamp64\www\temp\tourisme\www\compiled\templates\modules\tourisme\activity_html_t_15.php : 53
+	3	template_e2f25657b25061a86fd942fcf8911252()	C:\wamp64\jelix\lib\jelix\tpl\jTpl.class.php : 287
+	4	jTpl->fetch()	C:\wamp64\www\tourisme\modules\tourisme\controllers\form.classic.php : 28
+	5	formCtrl->showActivity()	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php : 225
+	6	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-17 13:52:25	::1	notice	2017-10-17 13:52:25	::1	[8]	Undefined variable: ctrl	C:\wamp64\www\tourisme\plugins\formwidget\menulist_bulma\menulist_bulma.formwidget.php	43
+	/tourisme/www/index.php?module=tourisme&action=form:showActivity
+array (   'module' => 'tourisme',   'action' => 'form:showActivity', )
+
+	0	menulist_bulmaFormWidget->outputControl()	C:\wamp64\www\tourisme\plugins\formbuilder\formhtml\formhtml.formbuilder.php : 80
+	1	formhtmlFormBuilder->outputControl()	C:\wamp64\jelix\lib\jelix\plugins\tpl\html\function.ctrl_control.php : 43
+	2	jtpl_function_html_ctrl_control()	C:\wamp64\www\temp\tourisme\www\compiled\templates\modules\tourisme\activity_html_t_15.php : 53
+	3	template_e2f25657b25061a86fd942fcf8911252()	C:\wamp64\jelix\lib\jelix\tpl\jTpl.class.php : 287
+	4	jTpl->fetch()	C:\wamp64\www\tourisme\modules\tourisme\controllers\form.classic.php : 28
+	5	formCtrl->showActivity()	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php : 225
+	6	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-17 13:52:25	::1	notice	2017-10-17 13:52:25	::1	[8]	Trying to get property of non-object	C:\wamp64\www\tourisme\plugins\formwidget\menulist_bulma\menulist_bulma.formwidget.php	43
+	/tourisme/www/index.php?module=tourisme&action=form:showActivity
+array (   'module' => 'tourisme',   'action' => 'form:showActivity', )
+
+	0	menulist_bulmaFormWidget->outputControl()	C:\wamp64\www\tourisme\plugins\formbuilder\formhtml\formhtml.formbuilder.php : 80
+	1	formhtmlFormBuilder->outputControl()	C:\wamp64\jelix\lib\jelix\plugins\tpl\html\function.ctrl_control.php : 43
+	2	jtpl_function_html_ctrl_control()	C:\wamp64\www\temp\tourisme\www\compiled\templates\modules\tourisme\activity_html_t_15.php : 53
+	3	template_e2f25657b25061a86fd942fcf8911252()	C:\wamp64\jelix\lib\jelix\tpl\jTpl.class.php : 287
+	4	jTpl->fetch()	C:\wamp64\www\tourisme\modules\tourisme\controllers\form.classic.php : 28
+	5	formCtrl->showActivity()	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php : 225
+	6	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-17 13:52:52	::1	notice	2017-10-17 13:52:52	::1	[8]	Undefined variable: ctrl	C:\wamp64\www\tourisme\plugins\formwidget\menulist_bulma\menulist_bulma.formwidget.php	43
+	/tourisme/www/index.php?module=tourisme&action=form:showActivity
+array (   'module' => 'tourisme',   'action' => 'form:showActivity', )
+
+	0	menulist_bulmaFormWidget->outputControl()	C:\wamp64\www\tourisme\plugins\formbuilder\formhtml\formhtml.formbuilder.php : 80
+	1	formhtmlFormBuilder->outputControl()	C:\wamp64\jelix\lib\jelix\plugins\tpl\html\function.ctrl_control.php : 43
+	2	jtpl_function_html_ctrl_control()	C:\wamp64\www\temp\tourisme\www\compiled\templates\modules\tourisme\activity_html_t_15.php : 53
+	3	template_e2f25657b25061a86fd942fcf8911252()	C:\wamp64\jelix\lib\jelix\tpl\jTpl.class.php : 287
+	4	jTpl->fetch()	C:\wamp64\www\tourisme\modules\tourisme\controllers\form.classic.php : 28
+	5	formCtrl->showActivity()	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php : 225
+	6	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-17 13:52:52	::1	notice	2017-10-17 13:52:52	::1	[8]	Undefined variable: ctrl	C:\wamp64\www\tourisme\plugins\formwidget\menulist_bulma\menulist_bulma.formwidget.php	43
+	/tourisme/www/index.php?module=tourisme&action=form:showActivity
+array (   'module' => 'tourisme',   'action' => 'form:showActivity', )
+
+	0	menulist_bulmaFormWidget->outputControl()	C:\wamp64\www\tourisme\plugins\formbuilder\formhtml\formhtml.formbuilder.php : 80
+	1	formhtmlFormBuilder->outputControl()	C:\wamp64\jelix\lib\jelix\plugins\tpl\html\function.ctrl_control.php : 43
+	2	jtpl_function_html_ctrl_control()	C:\wamp64\www\temp\tourisme\www\compiled\templates\modules\tourisme\activity_html_t_15.php : 53
+	3	template_e2f25657b25061a86fd942fcf8911252()	C:\wamp64\jelix\lib\jelix\tpl\jTpl.class.php : 287
+	4	jTpl->fetch()	C:\wamp64\www\tourisme\modules\tourisme\controllers\form.classic.php : 28
+	5	formCtrl->showActivity()	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php : 225
+	6	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-17 13:53:01	::1	notice	2017-10-17 13:53:01	::1	[8]	Undefined variable: ctrl	C:\wamp64\www\tourisme\plugins\formwidget\menulist_bulma\menulist_bulma.formwidget.php	43
+	/tourisme/www/index.php?module=tourisme&action=form:showActivity
+array (   'module' => 'tourisme',   'action' => 'form:showActivity', )
+
+	0	menulist_bulmaFormWidget->outputControl()	C:\wamp64\www\tourisme\plugins\formbuilder\formhtml\formhtml.formbuilder.php : 80
+	1	formhtmlFormBuilder->outputControl()	C:\wamp64\jelix\lib\jelix\plugins\tpl\html\function.ctrl_control.php : 43
+	2	jtpl_function_html_ctrl_control()	C:\wamp64\www\temp\tourisme\www\compiled\templates\modules\tourisme\activity_html_t_15.php : 53
+	3	template_e2f25657b25061a86fd942fcf8911252()	C:\wamp64\jelix\lib\jelix\tpl\jTpl.class.php : 287
+	4	jTpl->fetch()	C:\wamp64\www\tourisme\modules\tourisme\controllers\form.classic.php : 28
+	5	formCtrl->showActivity()	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php : 225
+	6	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-17 13:53:02	::1	notice	2017-10-17 13:53:02	::1	[8]	Undefined variable: ctrl	C:\wamp64\www\tourisme\plugins\formwidget\menulist_bulma\menulist_bulma.formwidget.php	43
+	/tourisme/www/index.php?module=tourisme&action=form:showActivity
+array (   'module' => 'tourisme',   'action' => 'form:showActivity', )
+
+	0	menulist_bulmaFormWidget->outputControl()	C:\wamp64\www\tourisme\plugins\formbuilder\formhtml\formhtml.formbuilder.php : 80
+	1	formhtmlFormBuilder->outputControl()	C:\wamp64\jelix\lib\jelix\plugins\tpl\html\function.ctrl_control.php : 43
+	2	jtpl_function_html_ctrl_control()	C:\wamp64\www\temp\tourisme\www\compiled\templates\modules\tourisme\activity_html_t_15.php : 53
+	3	template_e2f25657b25061a86fd942fcf8911252()	C:\wamp64\jelix\lib\jelix\tpl\jTpl.class.php : 287
+	4	jTpl->fetch()	C:\wamp64\www\tourisme\modules\tourisme\controllers\form.classic.php : 28
+	5	formCtrl->showActivity()	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php : 225
+	6	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-17 13:59:56	::1	warning	2017-10-17 13:59:56	::1	[2]	Missing argument 1 for cDao_tourisme_Jx_departments_Jx_mysql::findByRegion(), called in C:\wamp64\jelix\lib\jelix\forms\jFormsDatasource.class.php on line 225 and defined	C:\wamp64\www\temp\tourisme\www\compiled\daos\modules\tourisme~departments~mysql_15.php	200
+	/tourisme/www/index.php?module=tourisme&action=form:showActivity
+array (   'module' => 'tourisme',   'action' => 'form:showActivity', )
+
+	0	cDao_tourisme_Jx_departments_Jx_mysql->findByRegion()	C:\wamp64\jelix\lib\jelix\forms\jFormsDatasource.class.php : 225
+	1	jFormsDaoDatasource->getData()	C:\wamp64\www\tourisme\plugins\formwidget\menulist_bulma\menulist_bulma.formwidget.php : 6
+	2	menulist_bulmaFormWidget->outputControl()	C:\wamp64\www\tourisme\plugins\formbuilder\formhtml\formhtml.formbuilder.php : 80
+	3	formhtmlFormBuilder->outputControl()	C:\wamp64\jelix\lib\jelix\plugins\tpl\html\function.ctrl_control.php : 43
+	4	jtpl_function_html_ctrl_control()	C:\wamp64\www\temp\tourisme\www\compiled\templates\modules\tourisme\activity_html_t_15.php : 53
+	5	template_e2f25657b25061a86fd942fcf8911252()	C:\wamp64\jelix\lib\jelix\tpl\jTpl.class.php : 287
+	6	jTpl->fetch()	C:\wamp64\www\tourisme\modules\tourisme\controllers\form.classic.php : 28
+	7	formCtrl->showActivity()	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php : 225
+	8	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-17 13:59:56	::1	notice	2017-10-17 13:59:56	::1	[8]	Undefined variable: regionId	C:\wamp64\www\temp\tourisme\www\compiled\daos\modules\tourisme~departments~mysql_15.php	202
+	/tourisme/www/index.php?module=tourisme&action=form:showActivity
+array (   'module' => 'tourisme',   'action' => 'form:showActivity', )
+
+	0	cDao_tourisme_Jx_departments_Jx_mysql->findByRegion()	C:\wamp64\jelix\lib\jelix\forms\jFormsDatasource.class.php : 225
+	1	jFormsDaoDatasource->getData()	C:\wamp64\www\tourisme\plugins\formwidget\menulist_bulma\menulist_bulma.formwidget.php : 6
+	2	menulist_bulmaFormWidget->outputControl()	C:\wamp64\www\tourisme\plugins\formbuilder\formhtml\formhtml.formbuilder.php : 80
+	3	formhtmlFormBuilder->outputControl()	C:\wamp64\jelix\lib\jelix\plugins\tpl\html\function.ctrl_control.php : 43
+	4	jtpl_function_html_ctrl_control()	C:\wamp64\www\temp\tourisme\www\compiled\templates\modules\tourisme\activity_html_t_15.php : 53
+	5	template_e2f25657b25061a86fd942fcf8911252()	C:\wamp64\jelix\lib\jelix\tpl\jTpl.class.php : 287
+	6	jTpl->fetch()	C:\wamp64\www\tourisme\modules\tourisme\controllers\form.classic.php : 28
+	7	formCtrl->showActivity()	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php : 225
+	8	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-17 14:00:12	::1	warning	2017-10-17 14:00:12	::1	[2]	Missing argument 1 for cDao_tourisme_Jx_departments_Jx_mysql::findByRegion(), called in C:\wamp64\jelix\lib\jelix\forms\jFormsDatasource.class.php on line 225 and defined	C:\wamp64\www\temp\tourisme\www\compiled\daos\modules\tourisme~departments~mysql_15.php	200
+	/tourisme/www/index.php?module=tourisme&action=form:showActivity
+array (   'module' => 'tourisme',   'action' => 'form:showActivity', )
+
+	0	cDao_tourisme_Jx_departments_Jx_mysql->findByRegion()	C:\wamp64\jelix\lib\jelix\forms\jFormsDatasource.class.php : 225
+	1	jFormsDaoDatasource->getData()	C:\wamp64\www\tourisme\plugins\formwidget\menulist_bulma\menulist_bulma.formwidget.php : 6
+	2	menulist_bulmaFormWidget->outputControl()	C:\wamp64\www\tourisme\plugins\formbuilder\formhtml\formhtml.formbuilder.php : 80
+	3	formhtmlFormBuilder->outputControl()	C:\wamp64\jelix\lib\jelix\plugins\tpl\html\function.ctrl_control.php : 43
+	4	jtpl_function_html_ctrl_control()	C:\wamp64\www\temp\tourisme\www\compiled\templates\modules\tourisme\activity_html_t_15.php : 53
+	5	template_e2f25657b25061a86fd942fcf8911252()	C:\wamp64\jelix\lib\jelix\tpl\jTpl.class.php : 287
+	6	jTpl->fetch()	C:\wamp64\www\tourisme\modules\tourisme\controllers\form.classic.php : 28
+	7	formCtrl->showActivity()	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php : 225
+	8	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-17 14:00:12	::1	notice	2017-10-17 14:00:12	::1	[8]	Undefined variable: regionId	C:\wamp64\www\temp\tourisme\www\compiled\daos\modules\tourisme~departments~mysql_15.php	202
+	/tourisme/www/index.php?module=tourisme&action=form:showActivity
+array (   'module' => 'tourisme',   'action' => 'form:showActivity', )
+
+	0	cDao_tourisme_Jx_departments_Jx_mysql->findByRegion()	C:\wamp64\jelix\lib\jelix\forms\jFormsDatasource.class.php : 225
+	1	jFormsDaoDatasource->getData()	C:\wamp64\www\tourisme\plugins\formwidget\menulist_bulma\menulist_bulma.formwidget.php : 6
+	2	menulist_bulmaFormWidget->outputControl()	C:\wamp64\www\tourisme\plugins\formbuilder\formhtml\formhtml.formbuilder.php : 80
+	3	formhtmlFormBuilder->outputControl()	C:\wamp64\jelix\lib\jelix\plugins\tpl\html\function.ctrl_control.php : 43
+	4	jtpl_function_html_ctrl_control()	C:\wamp64\www\temp\tourisme\www\compiled\templates\modules\tourisme\activity_html_t_15.php : 53
+	5	template_e2f25657b25061a86fd942fcf8911252()	C:\wamp64\jelix\lib\jelix\tpl\jTpl.class.php : 287
+	6	jTpl->fetch()	C:\wamp64\www\tourisme\modules\tourisme\controllers\form.classic.php : 28
+	7	formCtrl->showActivity()	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php : 225
+	8	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-17 14:26:44	::1	warning	2017-10-17 14:26:44	::1	[2]	Missing argument 1 for cDao_tourisme_Jx_departments_Jx_mysql::findByRegion(), called in C:\wamp64\jelix\lib\jelix\forms\jFormsDatasource.class.php on line 225 and defined	C:\wamp64\www\temp\tourisme\www\compiled\daos\modules\tourisme~departments~mysql_15.php	200
+	/tourisme/www/index.php?module=tourisme&action=form:showActivity
+array (   'module' => 'tourisme',   'action' => 'form:showActivity', )
+
+	0	cDao_tourisme_Jx_departments_Jx_mysql->findByRegion()	C:\wamp64\jelix\lib\jelix\forms\jFormsDatasource.class.php : 225
+	1	jFormsDaoDatasource->getData()	C:\wamp64\jelix\lib\jelix\forms\HtmlWidget\WidgetBase.php : 264
+	2	jelix\forms\HtmlWidget\WidgetBase->fillSelect()	C:\wamp64\jelix\lib\jelix\plugins\formwidget\menulist_html\menulist_html.formwidget.php : 60
+	3	menulist_htmlFormWidget->outputControl()	C:\wamp64\jelix\lib\jelix\forms\Builder\HtmlBuilder.php : 258
+	4	jelix\forms\Builder\HtmlBuilder->outputControl()	C:\wamp64\jelix\lib\jelix\plugins\tpl\html\function.ctrl_control.php : 43
+	5	jtpl_function_html_ctrl_control()	C:\wamp64\www\temp\tourisme\www\compiled\templates\modules\tourisme\activity_html_t_15.php : 53
+	6	template_e2f25657b25061a86fd942fcf8911252()	C:\wamp64\jelix\lib\jelix\tpl\jTpl.class.php : 287
+	7	jTpl->fetch()	C:\wamp64\www\tourisme\modules\tourisme\controllers\form.classic.php : 28
+	8	formCtrl->showActivity()	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php : 225
+	9	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-17 14:26:44	::1	notice	2017-10-17 14:26:44	::1	[8]	Undefined variable: regionId	C:\wamp64\www\temp\tourisme\www\compiled\daos\modules\tourisme~departments~mysql_15.php	202
+	/tourisme/www/index.php?module=tourisme&action=form:showActivity
+array (   'module' => 'tourisme',   'action' => 'form:showActivity', )
+
+	0	cDao_tourisme_Jx_departments_Jx_mysql->findByRegion()	C:\wamp64\jelix\lib\jelix\forms\jFormsDatasource.class.php : 225
+	1	jFormsDaoDatasource->getData()	C:\wamp64\jelix\lib\jelix\forms\HtmlWidget\WidgetBase.php : 264
+	2	jelix\forms\HtmlWidget\WidgetBase->fillSelect()	C:\wamp64\jelix\lib\jelix\plugins\formwidget\menulist_html\menulist_html.formwidget.php : 60
+	3	menulist_htmlFormWidget->outputControl()	C:\wamp64\jelix\lib\jelix\forms\Builder\HtmlBuilder.php : 258
+	4	jelix\forms\Builder\HtmlBuilder->outputControl()	C:\wamp64\jelix\lib\jelix\plugins\tpl\html\function.ctrl_control.php : 43
+	5	jtpl_function_html_ctrl_control()	C:\wamp64\www\temp\tourisme\www\compiled\templates\modules\tourisme\activity_html_t_15.php : 53
+	6	template_e2f25657b25061a86fd942fcf8911252()	C:\wamp64\jelix\lib\jelix\tpl\jTpl.class.php : 287
+	7	jTpl->fetch()	C:\wamp64\www\tourisme\modules\tourisme\controllers\form.classic.php : 28
+	8	formCtrl->showActivity()	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php : 225
+	9	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-17 14:26:51	::1	warning	2017-10-17 14:26:51	::1	[2]	Missing argument 1 for cDao_tourisme_Jx_departments_Jx_mysql::findByRegion(), called in C:\wamp64\jelix\lib\jelix\forms\jFormsDatasource.class.php on line 225 and defined	C:\wamp64\www\temp\tourisme\www\compiled\daos\modules\tourisme~departments~mysql_15.php	200
+	/tourisme/www/index.php?module=tourisme&action=form:showActivity
+array (   'module' => 'tourisme',   'action' => 'form:showActivity', )
+
+	0	cDao_tourisme_Jx_departments_Jx_mysql->findByRegion()	C:\wamp64\jelix\lib\jelix\forms\jFormsDatasource.class.php : 225
+	1	jFormsDaoDatasource->getData()	C:\wamp64\jelix\lib\jelix\forms\HtmlWidget\WidgetBase.php : 264
+	2	jelix\forms\HtmlWidget\WidgetBase->fillSelect()	C:\wamp64\jelix\lib\jelix\plugins\formwidget\menulist_html\menulist_html.formwidget.php : 60
+	3	menulist_htmlFormWidget->outputControl()	C:\wamp64\jelix\lib\jelix\forms\Builder\HtmlBuilder.php : 258
+	4	jelix\forms\Builder\HtmlBuilder->outputControl()	C:\wamp64\jelix\lib\jelix\plugins\tpl\html\function.ctrl_control.php : 43
+	5	jtpl_function_html_ctrl_control()	C:\wamp64\www\temp\tourisme\www\compiled\templates\modules\tourisme\activity_html_t_15.php : 53
+	6	template_e2f25657b25061a86fd942fcf8911252()	C:\wamp64\jelix\lib\jelix\tpl\jTpl.class.php : 287
+	7	jTpl->fetch()	C:\wamp64\www\tourisme\modules\tourisme\controllers\form.classic.php : 28
+	8	formCtrl->showActivity()	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php : 225
+	9	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-17 14:26:51	::1	notice	2017-10-17 14:26:51	::1	[8]	Undefined variable: regionId	C:\wamp64\www\temp\tourisme\www\compiled\daos\modules\tourisme~departments~mysql_15.php	202
+	/tourisme/www/index.php?module=tourisme&action=form:showActivity
+array (   'module' => 'tourisme',   'action' => 'form:showActivity', )
+
+	0	cDao_tourisme_Jx_departments_Jx_mysql->findByRegion()	C:\wamp64\jelix\lib\jelix\forms\jFormsDatasource.class.php : 225
+	1	jFormsDaoDatasource->getData()	C:\wamp64\jelix\lib\jelix\forms\HtmlWidget\WidgetBase.php : 264
+	2	jelix\forms\HtmlWidget\WidgetBase->fillSelect()	C:\wamp64\jelix\lib\jelix\plugins\formwidget\menulist_html\menulist_html.formwidget.php : 60
+	3	menulist_htmlFormWidget->outputControl()	C:\wamp64\jelix\lib\jelix\forms\Builder\HtmlBuilder.php : 258
+	4	jelix\forms\Builder\HtmlBuilder->outputControl()	C:\wamp64\jelix\lib\jelix\plugins\tpl\html\function.ctrl_control.php : 43
+	5	jtpl_function_html_ctrl_control()	C:\wamp64\www\temp\tourisme\www\compiled\templates\modules\tourisme\activity_html_t_15.php : 53
+	6	template_e2f25657b25061a86fd942fcf8911252()	C:\wamp64\jelix\lib\jelix\tpl\jTpl.class.php : 287
+	7	jTpl->fetch()	C:\wamp64\www\tourisme\modules\tourisme\controllers\form.classic.php : 28
+	8	formCtrl->showActivity()	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php : 225
+	9	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-17 14:27:22	::1	warning	2017-10-17 14:27:22	::1	[2]	Missing argument 1 for cDao_tourisme_Jx_departments_Jx_mysql::findByRegion(), called in C:\wamp64\jelix\lib\jelix\forms\jFormsDatasource.class.php on line 225 and defined	C:\wamp64\www\temp\tourisme\www\compiled\daos\modules\tourisme~departments~mysql_15.php	200
+	/tourisme/www/index.php?module=tourisme&action=form:showActivity
+array (   'module' => 'tourisme',   'action' => 'form:showActivity', )
+
+	0	cDao_tourisme_Jx_departments_Jx_mysql->findByRegion()	C:\wamp64\jelix\lib\jelix\forms\jFormsDatasource.class.php : 225
+	1	jFormsDaoDatasource->getData()	C:\wamp64\jelix\lib\jelix\forms\HtmlWidget\WidgetBase.php : 264
+	2	jelix\forms\HtmlWidget\WidgetBase->fillSelect()	C:\wamp64\jelix\lib\jelix\plugins\formwidget\menulist_html\menulist_html.formwidget.php : 60
+	3	menulist_htmlFormWidget->outputControl()	C:\wamp64\jelix\lib\jelix\forms\Builder\HtmlBuilder.php : 258
+	4	jelix\forms\Builder\HtmlBuilder->outputControl()	C:\wamp64\jelix\lib\jelix\plugins\tpl\html\function.ctrl_control.php : 43
+	5	jtpl_function_html_ctrl_control()	C:\wamp64\www\temp\tourisme\www\compiled\templates\modules\tourisme\activity_html_t_15.php : 53
+	6	template_e2f25657b25061a86fd942fcf8911252()	C:\wamp64\jelix\lib\jelix\tpl\jTpl.class.php : 287
+	7	jTpl->fetch()	C:\wamp64\www\tourisme\modules\tourisme\controllers\form.classic.php : 28
+	8	formCtrl->showActivity()	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php : 225
+	9	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-17 14:27:22	::1	notice	2017-10-17 14:27:22	::1	[8]	Undefined variable: regionId	C:\wamp64\www\temp\tourisme\www\compiled\daos\modules\tourisme~departments~mysql_15.php	202
+	/tourisme/www/index.php?module=tourisme&action=form:showActivity
+array (   'module' => 'tourisme',   'action' => 'form:showActivity', )
+
+	0	cDao_tourisme_Jx_departments_Jx_mysql->findByRegion()	C:\wamp64\jelix\lib\jelix\forms\jFormsDatasource.class.php : 225
+	1	jFormsDaoDatasource->getData()	C:\wamp64\jelix\lib\jelix\forms\HtmlWidget\WidgetBase.php : 264
+	2	jelix\forms\HtmlWidget\WidgetBase->fillSelect()	C:\wamp64\jelix\lib\jelix\plugins\formwidget\menulist_html\menulist_html.formwidget.php : 60
+	3	menulist_htmlFormWidget->outputControl()	C:\wamp64\jelix\lib\jelix\forms\Builder\HtmlBuilder.php : 258
+	4	jelix\forms\Builder\HtmlBuilder->outputControl()	C:\wamp64\jelix\lib\jelix\plugins\tpl\html\function.ctrl_control.php : 43
+	5	jtpl_function_html_ctrl_control()	C:\wamp64\www\temp\tourisme\www\compiled\templates\modules\tourisme\activity_html_t_15.php : 53
+	6	template_e2f25657b25061a86fd942fcf8911252()	C:\wamp64\jelix\lib\jelix\tpl\jTpl.class.php : 287
+	7	jTpl->fetch()	C:\wamp64\www\tourisme\modules\tourisme\controllers\form.classic.php : 28
+	8	formCtrl->showActivity()	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php : 225
+	9	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-17 14:42:35	::1	error	2017-10-17 14:42:35	::1	[132]	Réponse non spécifiée (action tourisme~form:saveActivity@classic)	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php	227
+	/tourisme/www/index.php
+array (   'module' => 'tourisme',   'action' => 'form:saveActivity',   '__JFORMS_TOKEN__' => 'e7b39436f6d62e80da00552276964528',   'name' => '',   'address' => '',   'region' => '6',   'submit' => 'Enregistrer', )
+
+	0	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
