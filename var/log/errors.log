@@ -21340,3 +21340,806 @@ array (   'module' => 'tourisme',   'action' => 'form:saveActivity',   '__JFORMS
 	0	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
 
 
+2017-10-17 16:52:57	::1	error	2017-10-17 16:52:57	::1	[17]	Le sélecteur "tourisme~activityForm"  ne désigne pas une ressource de type class	C:\wamp64\jelix\lib\jelix\core\selector\jSelectorClass.class.php	56
+	/tourisme/www/activites/ajouter
+array (   'module' => 'tourisme',   'action' => 'form:prepareActivity', )
+
+	0	jSelectorClass->_createPath()	C:\wamp64\jelix\lib\jelix\core\selector\jSelectorClass.class.php : 42
+	1	jSelectorClass->__construct()	C:\wamp64\jelix\lib\jelix\forms\jFormsCompiler_jf_1_1.class.php : 417
+	2	jFormsCompiler_jf_1_1->readDatasource()	C:\wamp64\jelix\lib\jelix\forms\jFormsCompiler_jf_1_0.class.php : 245
+	3	jFormsCompiler_jf_1_0->generateMenulist()	C:\wamp64\jelix\lib\jelix\forms\jFormsCompiler_jf_1_1.class.php : 78
+	4	jFormsCompiler_jf_1_1->generateMenulist()	C:\wamp64\jelix\lib\jelix\forms\jFormsCompiler_jf_1_0.class.php : 80
+	5	jFormsCompiler_jf_1_0->_generatePHPControl()	C:\wamp64\jelix\lib\jelix\forms\jFormsCompiler_jf_1_0.class.php : 51
+	6	jFormsCompiler_jf_1_0->generatePHPControl()	C:\wamp64\jelix\lib\jelix\forms\jFormsCompiler_jf_1_0.class.php : 39
+	7	jFormsCompiler_jf_1_0->compile()	C:\wamp64\jelix\lib\jelix\forms\jFormsCompiler.class.php : 57
+	8	jFormsCompiler->compile()	C:\wamp64\jelix\lib\jelix\core\jIncluder.class.php : 113
+	9	jIncluder::inc()	C:\wamp64\jelix\lib\jelix\forms\jForms.class.php : 56
+	10	jForms::create()	C:\wamp64\www\tourisme\modules\tourisme\controllers\form.classic.php : 7
+	11	formCtrl->prepareActivity()	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php : 225
+	12	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-17 16:58:23	::1	notice	2017-10-17 16:58:23	::1	[8]	Undefined variable: regionId	C:\wamp64\www\tourisme\modules\tourisme\classes\activityForm.class.php	16
+	/tourisme/www/index.php?module=tourisme&action=form:showActivity
+array (   'module' => 'tourisme',   'action' => 'form:showActivity', )
+
+	0	activityForm->__construct()	C:\wamp64\www\temp\tourisme\www\compiled\forms\modules\tourisme~activity_15.php : 30
+	1	cForm_tourisme_Jx_activity->__construct()	C:\wamp64\jelix\lib\jelix\forms\jForms.class.php : 101
+	2	jForms::get()	C:\wamp64\www\tourisme\modules\tourisme\controllers\form.classic.php : 18
+	3	formCtrl->showActivity()	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php : 225
+	4	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-17 16:58:23	::1	notice	2017-10-17 16:58:23	::1	[8]	Undefined variable: regionId	C:\wamp64\www\tourisme\modules\tourisme\classes\activityForm.class.php	16
+	/tourisme/www/index.php?module=tourisme&action=form:showActivity
+array (   'module' => 'tourisme',   'action' => 'form:showActivity', )
+
+	0	activityForm->__construct()	C:\wamp64\www\temp\tourisme\www\compiled\forms\modules\tourisme~activity_15.php : 30
+	1	cForm_tourisme_Jx_activity->__construct()	C:\wamp64\jelix\lib\jelix\forms\jForms.class.php : 101
+	2	jForms::get()	C:\wamp64\www\tourisme\modules\tourisme\controllers\form.classic.php : 18
+	3	formCtrl->showActivity()	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php : 225
+	4	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-17 16:58:23	::1	notice	2017-10-17 16:58:23	::1	[8]	Undefined variable: regionId	C:\wamp64\www\tourisme\modules\tourisme\classes\activityForm.class.php	16
+	/tourisme/www/index.php?module=tourisme&action=form:showActivity
+array (   'module' => 'tourisme',   'action' => 'form:showActivity', )
+
+	0	activityForm->__construct()	C:\wamp64\www\temp\tourisme\www\compiled\forms\modules\tourisme~activity_15.php : 30
+	1	cForm_tourisme_Jx_activity->__construct()	C:\wamp64\jelix\lib\jelix\forms\jForms.class.php : 101
+	2	jForms::get()	C:\wamp64\www\tourisme\modules\tourisme\controllers\form.classic.php : 18
+	3	formCtrl->showActivity()	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php : 225
+	4	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-17 16:58:23	::1	notice	2017-10-17 16:58:23	::1	[8]	Undefined variable: regionId	C:\wamp64\www\tourisme\modules\tourisme\classes\activityForm.class.php	16
+	/tourisme/www/index.php?module=tourisme&action=form:showActivity
+array (   'module' => 'tourisme',   'action' => 'form:showActivity', )
+
+	0	activityForm->__construct()	C:\wamp64\www\temp\tourisme\www\compiled\forms\modules\tourisme~activity_15.php : 30
+	1	cForm_tourisme_Jx_activity->__construct()	C:\wamp64\jelix\lib\jelix\forms\jForms.class.php : 101
+	2	jForms::get()	C:\wamp64\www\tourisme\modules\tourisme\controllers\form.classic.php : 18
+	3	formCtrl->showActivity()	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php : 225
+	4	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-17 16:58:23	::1	notice	2017-10-17 16:58:23	::1	[8]	Undefined variable: regionId	C:\wamp64\www\tourisme\modules\tourisme\classes\activityForm.class.php	16
+	/tourisme/www/index.php?module=tourisme&action=form:showActivity
+array (   'module' => 'tourisme',   'action' => 'form:showActivity', )
+
+	0	activityForm->__construct()	C:\wamp64\www\temp\tourisme\www\compiled\forms\modules\tourisme~activity_15.php : 30
+	1	cForm_tourisme_Jx_activity->__construct()	C:\wamp64\jelix\lib\jelix\forms\jForms.class.php : 101
+	2	jForms::get()	C:\wamp64\www\tourisme\modules\tourisme\controllers\form.classic.php : 18
+	3	formCtrl->showActivity()	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php : 225
+	4	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-17 16:58:23	::1	notice	2017-10-17 16:58:23	::1	[8]	Undefined variable: regionId	C:\wamp64\www\tourisme\modules\tourisme\classes\activityForm.class.php	16
+	/tourisme/www/index.php?module=tourisme&action=form:showActivity
+array (   'module' => 'tourisme',   'action' => 'form:showActivity', )
+
+	0	activityForm->__construct()	C:\wamp64\www\temp\tourisme\www\compiled\forms\modules\tourisme~activity_15.php : 30
+	1	cForm_tourisme_Jx_activity->__construct()	C:\wamp64\jelix\lib\jelix\forms\jForms.class.php : 101
+	2	jForms::get()	C:\wamp64\www\tourisme\modules\tourisme\controllers\form.classic.php : 18
+	3	formCtrl->showActivity()	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php : 225
+	4	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-17 16:58:23	::1	notice	2017-10-17 16:58:23	::1	[8]	Undefined variable: regionId	C:\wamp64\www\tourisme\modules\tourisme\classes\activityForm.class.php	16
+	/tourisme/www/index.php?module=tourisme&action=form:showActivity
+array (   'module' => 'tourisme',   'action' => 'form:showActivity', )
+
+	0	activityForm->__construct()	C:\wamp64\www\temp\tourisme\www\compiled\forms\modules\tourisme~activity_15.php : 30
+	1	cForm_tourisme_Jx_activity->__construct()	C:\wamp64\jelix\lib\jelix\forms\jForms.class.php : 101
+	2	jForms::get()	C:\wamp64\www\tourisme\modules\tourisme\controllers\form.classic.php : 18
+	3	formCtrl->showActivity()	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php : 225
+	4	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-17 16:58:23	::1	notice	2017-10-17 16:58:23	::1	[8]	Undefined variable: regionId	C:\wamp64\www\tourisme\modules\tourisme\classes\activityForm.class.php	16
+	/tourisme/www/index.php?module=tourisme&action=form:showActivity
+array (   'module' => 'tourisme',   'action' => 'form:showActivity', )
+
+	0	activityForm->__construct()	C:\wamp64\www\temp\tourisme\www\compiled\forms\modules\tourisme~activity_15.php : 30
+	1	cForm_tourisme_Jx_activity->__construct()	C:\wamp64\jelix\lib\jelix\forms\jForms.class.php : 101
+	2	jForms::get()	C:\wamp64\www\tourisme\modules\tourisme\controllers\form.classic.php : 18
+	3	formCtrl->showActivity()	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php : 225
+	4	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-17 16:58:23	::1	notice	2017-10-17 16:58:23	::1	[8]	Undefined variable: regionId	C:\wamp64\www\tourisme\modules\tourisme\classes\activityForm.class.php	16
+	/tourisme/www/index.php?module=tourisme&action=form:showActivity
+array (   'module' => 'tourisme',   'action' => 'form:showActivity', )
+
+	0	activityForm->__construct()	C:\wamp64\www\temp\tourisme\www\compiled\forms\modules\tourisme~activity_15.php : 30
+	1	cForm_tourisme_Jx_activity->__construct()	C:\wamp64\jelix\lib\jelix\forms\jForms.class.php : 101
+	2	jForms::get()	C:\wamp64\www\tourisme\modules\tourisme\controllers\form.classic.php : 18
+	3	formCtrl->showActivity()	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php : 225
+	4	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-17 16:58:23	::1	notice	2017-10-17 16:58:23	::1	[8]	Undefined variable: regionId	C:\wamp64\www\tourisme\modules\tourisme\classes\activityForm.class.php	16
+	/tourisme/www/index.php?module=tourisme&action=form:showActivity
+array (   'module' => 'tourisme',   'action' => 'form:showActivity', )
+
+	0	activityForm->__construct()	C:\wamp64\www\temp\tourisme\www\compiled\forms\modules\tourisme~activity_15.php : 30
+	1	cForm_tourisme_Jx_activity->__construct()	C:\wamp64\jelix\lib\jelix\forms\jForms.class.php : 101
+	2	jForms::get()	C:\wamp64\www\tourisme\modules\tourisme\controllers\form.classic.php : 18
+	3	formCtrl->showActivity()	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php : 225
+	4	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-17 16:58:23	::1	notice	2017-10-17 16:58:23	::1	[8]	Undefined variable: regionId	C:\wamp64\www\tourisme\modules\tourisme\classes\activityForm.class.php	16
+	/tourisme/www/index.php?module=tourisme&action=form:showActivity
+array (   'module' => 'tourisme',   'action' => 'form:showActivity', )
+
+	0	activityForm->__construct()	C:\wamp64\www\temp\tourisme\www\compiled\forms\modules\tourisme~activity_15.php : 30
+	1	cForm_tourisme_Jx_activity->__construct()	C:\wamp64\jelix\lib\jelix\forms\jForms.class.php : 101
+	2	jForms::get()	C:\wamp64\www\tourisme\modules\tourisme\controllers\form.classic.php : 18
+	3	formCtrl->showActivity()	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php : 225
+	4	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-17 16:58:23	::1	notice	2017-10-17 16:58:23	::1	[8]	Undefined variable: regionId	C:\wamp64\www\tourisme\modules\tourisme\classes\activityForm.class.php	16
+	/tourisme/www/index.php?module=tourisme&action=form:showActivity
+array (   'module' => 'tourisme',   'action' => 'form:showActivity', )
+
+	0	activityForm->__construct()	C:\wamp64\www\temp\tourisme\www\compiled\forms\modules\tourisme~activity_15.php : 30
+	1	cForm_tourisme_Jx_activity->__construct()	C:\wamp64\jelix\lib\jelix\forms\jForms.class.php : 101
+	2	jForms::get()	C:\wamp64\www\tourisme\modules\tourisme\controllers\form.classic.php : 18
+	3	formCtrl->showActivity()	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php : 225
+	4	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-17 16:58:23	::1	notice	2017-10-17 16:58:23	::1	[8]	Undefined variable: regionId	C:\wamp64\www\tourisme\modules\tourisme\classes\activityForm.class.php	16
+	/tourisme/www/index.php?module=tourisme&action=form:showActivity
+array (   'module' => 'tourisme',   'action' => 'form:showActivity', )
+
+	0	activityForm->__construct()	C:\wamp64\www\temp\tourisme\www\compiled\forms\modules\tourisme~activity_15.php : 30
+	1	cForm_tourisme_Jx_activity->__construct()	C:\wamp64\jelix\lib\jelix\forms\jForms.class.php : 101
+	2	jForms::get()	C:\wamp64\www\tourisme\modules\tourisme\controllers\form.classic.php : 18
+	3	formCtrl->showActivity()	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php : 225
+	4	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-17 16:59:03	::1	notice	2017-10-17 16:59:03	::1	[8]	Undefined variable: regionId	C:\wamp64\www\tourisme\modules\tourisme\classes\activityForm.class.php	16
+	/tourisme/www/index.php?module=tourisme&action=form:showActivity
+array (   'module' => 'tourisme',   'action' => 'form:showActivity', )
+
+	0	activityForm->__construct()	C:\wamp64\www\temp\tourisme\www\compiled\forms\modules\tourisme~activity_15.php : 30
+	1	cForm_tourisme_Jx_activity->__construct()	C:\wamp64\jelix\lib\jelix\forms\jForms.class.php : 101
+	2	jForms::get()	C:\wamp64\www\tourisme\modules\tourisme\controllers\form.classic.php : 18
+	3	formCtrl->showActivity()	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php : 225
+	4	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-17 16:59:03	::1	notice	2017-10-17 16:59:03	::1	[8]	Undefined variable: regionId	C:\wamp64\www\tourisme\modules\tourisme\classes\activityForm.class.php	16
+	/tourisme/www/index.php?module=tourisme&action=form:showActivity
+array (   'module' => 'tourisme',   'action' => 'form:showActivity', )
+
+	0	activityForm->__construct()	C:\wamp64\www\temp\tourisme\www\compiled\forms\modules\tourisme~activity_15.php : 30
+	1	cForm_tourisme_Jx_activity->__construct()	C:\wamp64\jelix\lib\jelix\forms\jForms.class.php : 101
+	2	jForms::get()	C:\wamp64\www\tourisme\modules\tourisme\controllers\form.classic.php : 18
+	3	formCtrl->showActivity()	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php : 225
+	4	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-17 16:59:03	::1	notice	2017-10-17 16:59:03	::1	[8]	Undefined variable: regionId	C:\wamp64\www\tourisme\modules\tourisme\classes\activityForm.class.php	16
+	/tourisme/www/index.php?module=tourisme&action=form:showActivity
+array (   'module' => 'tourisme',   'action' => 'form:showActivity', )
+
+	0	activityForm->__construct()	C:\wamp64\www\temp\tourisme\www\compiled\forms\modules\tourisme~activity_15.php : 30
+	1	cForm_tourisme_Jx_activity->__construct()	C:\wamp64\jelix\lib\jelix\forms\jForms.class.php : 101
+	2	jForms::get()	C:\wamp64\www\tourisme\modules\tourisme\controllers\form.classic.php : 18
+	3	formCtrl->showActivity()	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php : 225
+	4	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-17 16:59:03	::1	notice	2017-10-17 16:59:03	::1	[8]	Undefined variable: regionId	C:\wamp64\www\tourisme\modules\tourisme\classes\activityForm.class.php	16
+	/tourisme/www/index.php?module=tourisme&action=form:showActivity
+array (   'module' => 'tourisme',   'action' => 'form:showActivity', )
+
+	0	activityForm->__construct()	C:\wamp64\www\temp\tourisme\www\compiled\forms\modules\tourisme~activity_15.php : 30
+	1	cForm_tourisme_Jx_activity->__construct()	C:\wamp64\jelix\lib\jelix\forms\jForms.class.php : 101
+	2	jForms::get()	C:\wamp64\www\tourisme\modules\tourisme\controllers\form.classic.php : 18
+	3	formCtrl->showActivity()	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php : 225
+	4	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-17 16:59:03	::1	notice	2017-10-17 16:59:03	::1	[8]	Undefined variable: regionId	C:\wamp64\www\tourisme\modules\tourisme\classes\activityForm.class.php	16
+	/tourisme/www/index.php?module=tourisme&action=form:showActivity
+array (   'module' => 'tourisme',   'action' => 'form:showActivity', )
+
+	0	activityForm->__construct()	C:\wamp64\www\temp\tourisme\www\compiled\forms\modules\tourisme~activity_15.php : 30
+	1	cForm_tourisme_Jx_activity->__construct()	C:\wamp64\jelix\lib\jelix\forms\jForms.class.php : 101
+	2	jForms::get()	C:\wamp64\www\tourisme\modules\tourisme\controllers\form.classic.php : 18
+	3	formCtrl->showActivity()	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php : 225
+	4	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-17 16:59:03	::1	notice	2017-10-17 16:59:03	::1	[8]	Undefined variable: regionId	C:\wamp64\www\tourisme\modules\tourisme\classes\activityForm.class.php	16
+	/tourisme/www/index.php?module=tourisme&action=form:showActivity
+array (   'module' => 'tourisme',   'action' => 'form:showActivity', )
+
+	0	activityForm->__construct()	C:\wamp64\www\temp\tourisme\www\compiled\forms\modules\tourisme~activity_15.php : 30
+	1	cForm_tourisme_Jx_activity->__construct()	C:\wamp64\jelix\lib\jelix\forms\jForms.class.php : 101
+	2	jForms::get()	C:\wamp64\www\tourisme\modules\tourisme\controllers\form.classic.php : 18
+	3	formCtrl->showActivity()	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php : 225
+	4	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-17 16:59:03	::1	notice	2017-10-17 16:59:03	::1	[8]	Undefined variable: regionId	C:\wamp64\www\tourisme\modules\tourisme\classes\activityForm.class.php	16
+	/tourisme/www/index.php?module=tourisme&action=form:showActivity
+array (   'module' => 'tourisme',   'action' => 'form:showActivity', )
+
+	0	activityForm->__construct()	C:\wamp64\www\temp\tourisme\www\compiled\forms\modules\tourisme~activity_15.php : 30
+	1	cForm_tourisme_Jx_activity->__construct()	C:\wamp64\jelix\lib\jelix\forms\jForms.class.php : 101
+	2	jForms::get()	C:\wamp64\www\tourisme\modules\tourisme\controllers\form.classic.php : 18
+	3	formCtrl->showActivity()	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php : 225
+	4	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-17 16:59:03	::1	notice	2017-10-17 16:59:03	::1	[8]	Undefined variable: regionId	C:\wamp64\www\tourisme\modules\tourisme\classes\activityForm.class.php	16
+	/tourisme/www/index.php?module=tourisme&action=form:showActivity
+array (   'module' => 'tourisme',   'action' => 'form:showActivity', )
+
+	0	activityForm->__construct()	C:\wamp64\www\temp\tourisme\www\compiled\forms\modules\tourisme~activity_15.php : 30
+	1	cForm_tourisme_Jx_activity->__construct()	C:\wamp64\jelix\lib\jelix\forms\jForms.class.php : 101
+	2	jForms::get()	C:\wamp64\www\tourisme\modules\tourisme\controllers\form.classic.php : 18
+	3	formCtrl->showActivity()	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php : 225
+	4	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-17 16:59:03	::1	notice	2017-10-17 16:59:03	::1	[8]	Undefined variable: regionId	C:\wamp64\www\tourisme\modules\tourisme\classes\activityForm.class.php	16
+	/tourisme/www/index.php?module=tourisme&action=form:showActivity
+array (   'module' => 'tourisme',   'action' => 'form:showActivity', )
+
+	0	activityForm->__construct()	C:\wamp64\www\temp\tourisme\www\compiled\forms\modules\tourisme~activity_15.php : 30
+	1	cForm_tourisme_Jx_activity->__construct()	C:\wamp64\jelix\lib\jelix\forms\jForms.class.php : 101
+	2	jForms::get()	C:\wamp64\www\tourisme\modules\tourisme\controllers\form.classic.php : 18
+	3	formCtrl->showActivity()	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php : 225
+	4	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-17 16:59:03	::1	notice	2017-10-17 16:59:03	::1	[8]	Undefined variable: regionId	C:\wamp64\www\tourisme\modules\tourisme\classes\activityForm.class.php	16
+	/tourisme/www/index.php?module=tourisme&action=form:showActivity
+array (   'module' => 'tourisme',   'action' => 'form:showActivity', )
+
+	0	activityForm->__construct()	C:\wamp64\www\temp\tourisme\www\compiled\forms\modules\tourisme~activity_15.php : 30
+	1	cForm_tourisme_Jx_activity->__construct()	C:\wamp64\jelix\lib\jelix\forms\jForms.class.php : 101
+	2	jForms::get()	C:\wamp64\www\tourisme\modules\tourisme\controllers\form.classic.php : 18
+	3	formCtrl->showActivity()	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php : 225
+	4	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-17 16:59:03	::1	notice	2017-10-17 16:59:03	::1	[8]	Undefined variable: regionId	C:\wamp64\www\tourisme\modules\tourisme\classes\activityForm.class.php	16
+	/tourisme/www/index.php?module=tourisme&action=form:showActivity
+array (   'module' => 'tourisme',   'action' => 'form:showActivity', )
+
+	0	activityForm->__construct()	C:\wamp64\www\temp\tourisme\www\compiled\forms\modules\tourisme~activity_15.php : 30
+	1	cForm_tourisme_Jx_activity->__construct()	C:\wamp64\jelix\lib\jelix\forms\jForms.class.php : 101
+	2	jForms::get()	C:\wamp64\www\tourisme\modules\tourisme\controllers\form.classic.php : 18
+	3	formCtrl->showActivity()	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php : 225
+	4	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-17 16:59:03	::1	notice	2017-10-17 16:59:03	::1	[8]	Undefined variable: regionId	C:\wamp64\www\tourisme\modules\tourisme\classes\activityForm.class.php	16
+	/tourisme/www/index.php?module=tourisme&action=form:showActivity
+array (   'module' => 'tourisme',   'action' => 'form:showActivity', )
+
+	0	activityForm->__construct()	C:\wamp64\www\temp\tourisme\www\compiled\forms\modules\tourisme~activity_15.php : 30
+	1	cForm_tourisme_Jx_activity->__construct()	C:\wamp64\jelix\lib\jelix\forms\jForms.class.php : 101
+	2	jForms::get()	C:\wamp64\www\tourisme\modules\tourisme\controllers\form.classic.php : 18
+	3	formCtrl->showActivity()	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php : 225
+	4	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-17 16:59:03	::1	notice	2017-10-17 16:59:03	::1	[8]	Undefined variable: regionId	C:\wamp64\www\tourisme\modules\tourisme\classes\activityForm.class.php	16
+	/tourisme/www/index.php?module=tourisme&action=form:showActivity
+array (   'module' => 'tourisme',   'action' => 'form:showActivity', )
+
+	0	activityForm->__construct()	C:\wamp64\www\temp\tourisme\www\compiled\forms\modules\tourisme~activity_15.php : 30
+	1	cForm_tourisme_Jx_activity->__construct()	C:\wamp64\jelix\lib\jelix\forms\jForms.class.php : 101
+	2	jForms::get()	C:\wamp64\www\tourisme\modules\tourisme\controllers\form.classic.php : 18
+	3	formCtrl->showActivity()	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php : 225
+	4	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-17 17:00:45	::1	notice	2017-10-17 17:00:45	::1	[8]	Undefined variable: regionId	C:\wamp64\www\tourisme\modules\tourisme\classes\activityForm.class.php	16
+	/tourisme/www/index.php?module=tourisme&action=form:showActivity
+array (   'module' => 'tourisme',   'action' => 'form:showActivity', )
+
+	0	activityForm->__construct()	C:\wamp64\www\temp\tourisme\www\compiled\forms\modules\tourisme~activity_15.php : 30
+	1	cForm_tourisme_Jx_activity->__construct()	C:\wamp64\jelix\lib\jelix\forms\jForms.class.php : 101
+	2	jForms::get()	C:\wamp64\www\tourisme\modules\tourisme\controllers\form.classic.php : 18
+	3	formCtrl->showActivity()	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php : 225
+	4	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-17 17:00:45	::1	notice	2017-10-17 17:00:45	::1	[8]	Undefined variable: regionId	C:\wamp64\www\tourisme\modules\tourisme\classes\activityForm.class.php	16
+	/tourisme/www/index.php?module=tourisme&action=form:showActivity
+array (   'module' => 'tourisme',   'action' => 'form:showActivity', )
+
+	0	activityForm->__construct()	C:\wamp64\www\temp\tourisme\www\compiled\forms\modules\tourisme~activity_15.php : 30
+	1	cForm_tourisme_Jx_activity->__construct()	C:\wamp64\jelix\lib\jelix\forms\jForms.class.php : 101
+	2	jForms::get()	C:\wamp64\www\tourisme\modules\tourisme\controllers\form.classic.php : 18
+	3	formCtrl->showActivity()	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php : 225
+	4	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-17 17:00:45	::1	notice	2017-10-17 17:00:45	::1	[8]	Undefined variable: regionId	C:\wamp64\www\tourisme\modules\tourisme\classes\activityForm.class.php	16
+	/tourisme/www/index.php?module=tourisme&action=form:showActivity
+array (   'module' => 'tourisme',   'action' => 'form:showActivity', )
+
+	0	activityForm->__construct()	C:\wamp64\www\temp\tourisme\www\compiled\forms\modules\tourisme~activity_15.php : 30
+	1	cForm_tourisme_Jx_activity->__construct()	C:\wamp64\jelix\lib\jelix\forms\jForms.class.php : 101
+	2	jForms::get()	C:\wamp64\www\tourisme\modules\tourisme\controllers\form.classic.php : 18
+	3	formCtrl->showActivity()	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php : 225
+	4	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-17 17:00:45	::1	notice	2017-10-17 17:00:45	::1	[8]	Undefined variable: regionId	C:\wamp64\www\tourisme\modules\tourisme\classes\activityForm.class.php	16
+	/tourisme/www/index.php?module=tourisme&action=form:showActivity
+array (   'module' => 'tourisme',   'action' => 'form:showActivity', )
+
+	0	activityForm->__construct()	C:\wamp64\www\temp\tourisme\www\compiled\forms\modules\tourisme~activity_15.php : 30
+	1	cForm_tourisme_Jx_activity->__construct()	C:\wamp64\jelix\lib\jelix\forms\jForms.class.php : 101
+	2	jForms::get()	C:\wamp64\www\tourisme\modules\tourisme\controllers\form.classic.php : 18
+	3	formCtrl->showActivity()	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php : 225
+	4	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-17 17:00:45	::1	notice	2017-10-17 17:00:45	::1	[8]	Undefined variable: regionId	C:\wamp64\www\tourisme\modules\tourisme\classes\activityForm.class.php	16
+	/tourisme/www/index.php?module=tourisme&action=form:showActivity
+array (   'module' => 'tourisme',   'action' => 'form:showActivity', )
+
+	0	activityForm->__construct()	C:\wamp64\www\temp\tourisme\www\compiled\forms\modules\tourisme~activity_15.php : 30
+	1	cForm_tourisme_Jx_activity->__construct()	C:\wamp64\jelix\lib\jelix\forms\jForms.class.php : 101
+	2	jForms::get()	C:\wamp64\www\tourisme\modules\tourisme\controllers\form.classic.php : 18
+	3	formCtrl->showActivity()	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php : 225
+	4	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-17 17:00:45	::1	notice	2017-10-17 17:00:45	::1	[8]	Undefined variable: regionId	C:\wamp64\www\tourisme\modules\tourisme\classes\activityForm.class.php	16
+	/tourisme/www/index.php?module=tourisme&action=form:showActivity
+array (   'module' => 'tourisme',   'action' => 'form:showActivity', )
+
+	0	activityForm->__construct()	C:\wamp64\www\temp\tourisme\www\compiled\forms\modules\tourisme~activity_15.php : 30
+	1	cForm_tourisme_Jx_activity->__construct()	C:\wamp64\jelix\lib\jelix\forms\jForms.class.php : 101
+	2	jForms::get()	C:\wamp64\www\tourisme\modules\tourisme\controllers\form.classic.php : 18
+	3	formCtrl->showActivity()	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php : 225
+	4	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-17 17:00:45	::1	notice	2017-10-17 17:00:45	::1	[8]	Undefined variable: regionId	C:\wamp64\www\tourisme\modules\tourisme\classes\activityForm.class.php	16
+	/tourisme/www/index.php?module=tourisme&action=form:showActivity
+array (   'module' => 'tourisme',   'action' => 'form:showActivity', )
+
+	0	activityForm->__construct()	C:\wamp64\www\temp\tourisme\www\compiled\forms\modules\tourisme~activity_15.php : 30
+	1	cForm_tourisme_Jx_activity->__construct()	C:\wamp64\jelix\lib\jelix\forms\jForms.class.php : 101
+	2	jForms::get()	C:\wamp64\www\tourisme\modules\tourisme\controllers\form.classic.php : 18
+	3	formCtrl->showActivity()	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php : 225
+	4	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-17 17:00:45	::1	notice	2017-10-17 17:00:45	::1	[8]	Undefined variable: regionId	C:\wamp64\www\tourisme\modules\tourisme\classes\activityForm.class.php	16
+	/tourisme/www/index.php?module=tourisme&action=form:showActivity
+array (   'module' => 'tourisme',   'action' => 'form:showActivity', )
+
+	0	activityForm->__construct()	C:\wamp64\www\temp\tourisme\www\compiled\forms\modules\tourisme~activity_15.php : 30
+	1	cForm_tourisme_Jx_activity->__construct()	C:\wamp64\jelix\lib\jelix\forms\jForms.class.php : 101
+	2	jForms::get()	C:\wamp64\www\tourisme\modules\tourisme\controllers\form.classic.php : 18
+	3	formCtrl->showActivity()	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php : 225
+	4	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-17 17:00:45	::1	notice	2017-10-17 17:00:45	::1	[8]	Undefined variable: regionId	C:\wamp64\www\tourisme\modules\tourisme\classes\activityForm.class.php	16
+	/tourisme/www/index.php?module=tourisme&action=form:showActivity
+array (   'module' => 'tourisme',   'action' => 'form:showActivity', )
+
+	0	activityForm->__construct()	C:\wamp64\www\temp\tourisme\www\compiled\forms\modules\tourisme~activity_15.php : 30
+	1	cForm_tourisme_Jx_activity->__construct()	C:\wamp64\jelix\lib\jelix\forms\jForms.class.php : 101
+	2	jForms::get()	C:\wamp64\www\tourisme\modules\tourisme\controllers\form.classic.php : 18
+	3	formCtrl->showActivity()	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php : 225
+	4	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-17 17:00:45	::1	notice	2017-10-17 17:00:45	::1	[8]	Undefined variable: regionId	C:\wamp64\www\tourisme\modules\tourisme\classes\activityForm.class.php	16
+	/tourisme/www/index.php?module=tourisme&action=form:showActivity
+array (   'module' => 'tourisme',   'action' => 'form:showActivity', )
+
+	0	activityForm->__construct()	C:\wamp64\www\temp\tourisme\www\compiled\forms\modules\tourisme~activity_15.php : 30
+	1	cForm_tourisme_Jx_activity->__construct()	C:\wamp64\jelix\lib\jelix\forms\jForms.class.php : 101
+	2	jForms::get()	C:\wamp64\www\tourisme\modules\tourisme\controllers\form.classic.php : 18
+	3	formCtrl->showActivity()	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php : 225
+	4	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-17 17:00:45	::1	notice	2017-10-17 17:00:45	::1	[8]	Undefined variable: regionId	C:\wamp64\www\tourisme\modules\tourisme\classes\activityForm.class.php	16
+	/tourisme/www/index.php?module=tourisme&action=form:showActivity
+array (   'module' => 'tourisme',   'action' => 'form:showActivity', )
+
+	0	activityForm->__construct()	C:\wamp64\www\temp\tourisme\www\compiled\forms\modules\tourisme~activity_15.php : 30
+	1	cForm_tourisme_Jx_activity->__construct()	C:\wamp64\jelix\lib\jelix\forms\jForms.class.php : 101
+	2	jForms::get()	C:\wamp64\www\tourisme\modules\tourisme\controllers\form.classic.php : 18
+	3	formCtrl->showActivity()	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php : 225
+	4	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-17 17:00:45	::1	notice	2017-10-17 17:00:45	::1	[8]	Undefined variable: regionId	C:\wamp64\www\tourisme\modules\tourisme\classes\activityForm.class.php	16
+	/tourisme/www/index.php?module=tourisme&action=form:showActivity
+array (   'module' => 'tourisme',   'action' => 'form:showActivity', )
+
+	0	activityForm->__construct()	C:\wamp64\www\temp\tourisme\www\compiled\forms\modules\tourisme~activity_15.php : 30
+	1	cForm_tourisme_Jx_activity->__construct()	C:\wamp64\jelix\lib\jelix\forms\jForms.class.php : 101
+	2	jForms::get()	C:\wamp64\www\tourisme\modules\tourisme\controllers\form.classic.php : 18
+	3	formCtrl->showActivity()	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php : 225
+	4	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-17 17:00:45	::1	notice	2017-10-17 17:00:45	::1	[8]	Undefined variable: regionId	C:\wamp64\www\tourisme\modules\tourisme\classes\activityForm.class.php	16
+	/tourisme/www/index.php?module=tourisme&action=form:showActivity
+array (   'module' => 'tourisme',   'action' => 'form:showActivity', )
+
+	0	activityForm->__construct()	C:\wamp64\www\temp\tourisme\www\compiled\forms\modules\tourisme~activity_15.php : 30
+	1	cForm_tourisme_Jx_activity->__construct()	C:\wamp64\jelix\lib\jelix\forms\jForms.class.php : 101
+	2	jForms::get()	C:\wamp64\www\tourisme\modules\tourisme\controllers\form.classic.php : 18
+	3	formCtrl->showActivity()	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php : 225
+	4	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-17 17:01:58	::1	notice	2017-10-17 17:01:58	::1	[8]	Undefined variable: regionId	C:\wamp64\www\tourisme\modules\tourisme\classes\activityForm.class.php	16
+	/tourisme/www/index.php?module=tourisme&action=form:showActivity
+array (   'module' => 'tourisme',   'action' => 'form:showActivity', )
+
+	0	activityForm->__construct()	C:\wamp64\www\temp\tourisme\www\compiled\forms\modules\tourisme~activity_15.php : 30
+	1	cForm_tourisme_Jx_activity->__construct()	C:\wamp64\jelix\lib\jelix\forms\jForms.class.php : 101
+	2	jForms::get()	C:\wamp64\www\tourisme\modules\tourisme\controllers\form.classic.php : 18
+	3	formCtrl->showActivity()	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php : 225
+	4	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-17 17:01:58	::1	notice	2017-10-17 17:01:58	::1	[8]	Undefined variable: regionId	C:\wamp64\www\tourisme\modules\tourisme\classes\activityForm.class.php	16
+	/tourisme/www/index.php?module=tourisme&action=form:showActivity
+array (   'module' => 'tourisme',   'action' => 'form:showActivity', )
+
+	0	activityForm->__construct()	C:\wamp64\www\temp\tourisme\www\compiled\forms\modules\tourisme~activity_15.php : 30
+	1	cForm_tourisme_Jx_activity->__construct()	C:\wamp64\jelix\lib\jelix\forms\jForms.class.php : 101
+	2	jForms::get()	C:\wamp64\www\tourisme\modules\tourisme\controllers\form.classic.php : 18
+	3	formCtrl->showActivity()	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php : 225
+	4	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-17 17:01:58	::1	notice	2017-10-17 17:01:58	::1	[8]	Undefined variable: regionId	C:\wamp64\www\tourisme\modules\tourisme\classes\activityForm.class.php	16
+	/tourisme/www/index.php?module=tourisme&action=form:showActivity
+array (   'module' => 'tourisme',   'action' => 'form:showActivity', )
+
+	0	activityForm->__construct()	C:\wamp64\www\temp\tourisme\www\compiled\forms\modules\tourisme~activity_15.php : 30
+	1	cForm_tourisme_Jx_activity->__construct()	C:\wamp64\jelix\lib\jelix\forms\jForms.class.php : 101
+	2	jForms::get()	C:\wamp64\www\tourisme\modules\tourisme\controllers\form.classic.php : 18
+	3	formCtrl->showActivity()	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php : 225
+	4	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-17 17:01:58	::1	notice	2017-10-17 17:01:58	::1	[8]	Undefined variable: regionId	C:\wamp64\www\tourisme\modules\tourisme\classes\activityForm.class.php	16
+	/tourisme/www/index.php?module=tourisme&action=form:showActivity
+array (   'module' => 'tourisme',   'action' => 'form:showActivity', )
+
+	0	activityForm->__construct()	C:\wamp64\www\temp\tourisme\www\compiled\forms\modules\tourisme~activity_15.php : 30
+	1	cForm_tourisme_Jx_activity->__construct()	C:\wamp64\jelix\lib\jelix\forms\jForms.class.php : 101
+	2	jForms::get()	C:\wamp64\www\tourisme\modules\tourisme\controllers\form.classic.php : 18
+	3	formCtrl->showActivity()	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php : 225
+	4	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-17 17:01:58	::1	notice	2017-10-17 17:01:58	::1	[8]	Undefined variable: regionId	C:\wamp64\www\tourisme\modules\tourisme\classes\activityForm.class.php	16
+	/tourisme/www/index.php?module=tourisme&action=form:showActivity
+array (   'module' => 'tourisme',   'action' => 'form:showActivity', )
+
+	0	activityForm->__construct()	C:\wamp64\www\temp\tourisme\www\compiled\forms\modules\tourisme~activity_15.php : 30
+	1	cForm_tourisme_Jx_activity->__construct()	C:\wamp64\jelix\lib\jelix\forms\jForms.class.php : 101
+	2	jForms::get()	C:\wamp64\www\tourisme\modules\tourisme\controllers\form.classic.php : 18
+	3	formCtrl->showActivity()	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php : 225
+	4	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-17 17:01:58	::1	notice	2017-10-17 17:01:58	::1	[8]	Undefined variable: regionId	C:\wamp64\www\tourisme\modules\tourisme\classes\activityForm.class.php	16
+	/tourisme/www/index.php?module=tourisme&action=form:showActivity
+array (   'module' => 'tourisme',   'action' => 'form:showActivity', )
+
+	0	activityForm->__construct()	C:\wamp64\www\temp\tourisme\www\compiled\forms\modules\tourisme~activity_15.php : 30
+	1	cForm_tourisme_Jx_activity->__construct()	C:\wamp64\jelix\lib\jelix\forms\jForms.class.php : 101
+	2	jForms::get()	C:\wamp64\www\tourisme\modules\tourisme\controllers\form.classic.php : 18
+	3	formCtrl->showActivity()	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php : 225
+	4	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-17 17:01:58	::1	notice	2017-10-17 17:01:58	::1	[8]	Undefined variable: regionId	C:\wamp64\www\tourisme\modules\tourisme\classes\activityForm.class.php	16
+	/tourisme/www/index.php?module=tourisme&action=form:showActivity
+array (   'module' => 'tourisme',   'action' => 'form:showActivity', )
+
+	0	activityForm->__construct()	C:\wamp64\www\temp\tourisme\www\compiled\forms\modules\tourisme~activity_15.php : 30
+	1	cForm_tourisme_Jx_activity->__construct()	C:\wamp64\jelix\lib\jelix\forms\jForms.class.php : 101
+	2	jForms::get()	C:\wamp64\www\tourisme\modules\tourisme\controllers\form.classic.php : 18
+	3	formCtrl->showActivity()	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php : 225
+	4	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-17 17:01:58	::1	notice	2017-10-17 17:01:58	::1	[8]	Undefined variable: regionId	C:\wamp64\www\tourisme\modules\tourisme\classes\activityForm.class.php	16
+	/tourisme/www/index.php?module=tourisme&action=form:showActivity
+array (   'module' => 'tourisme',   'action' => 'form:showActivity', )
+
+	0	activityForm->__construct()	C:\wamp64\www\temp\tourisme\www\compiled\forms\modules\tourisme~activity_15.php : 30
+	1	cForm_tourisme_Jx_activity->__construct()	C:\wamp64\jelix\lib\jelix\forms\jForms.class.php : 101
+	2	jForms::get()	C:\wamp64\www\tourisme\modules\tourisme\controllers\form.classic.php : 18
+	3	formCtrl->showActivity()	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php : 225
+	4	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-17 17:01:58	::1	notice	2017-10-17 17:01:58	::1	[8]	Undefined variable: regionId	C:\wamp64\www\tourisme\modules\tourisme\classes\activityForm.class.php	16
+	/tourisme/www/index.php?module=tourisme&action=form:showActivity
+array (   'module' => 'tourisme',   'action' => 'form:showActivity', )
+
+	0	activityForm->__construct()	C:\wamp64\www\temp\tourisme\www\compiled\forms\modules\tourisme~activity_15.php : 30
+	1	cForm_tourisme_Jx_activity->__construct()	C:\wamp64\jelix\lib\jelix\forms\jForms.class.php : 101
+	2	jForms::get()	C:\wamp64\www\tourisme\modules\tourisme\controllers\form.classic.php : 18
+	3	formCtrl->showActivity()	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php : 225
+	4	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-17 17:01:58	::1	notice	2017-10-17 17:01:58	::1	[8]	Undefined variable: regionId	C:\wamp64\www\tourisme\modules\tourisme\classes\activityForm.class.php	16
+	/tourisme/www/index.php?module=tourisme&action=form:showActivity
+array (   'module' => 'tourisme',   'action' => 'form:showActivity', )
+
+	0	activityForm->__construct()	C:\wamp64\www\temp\tourisme\www\compiled\forms\modules\tourisme~activity_15.php : 30
+	1	cForm_tourisme_Jx_activity->__construct()	C:\wamp64\jelix\lib\jelix\forms\jForms.class.php : 101
+	2	jForms::get()	C:\wamp64\www\tourisme\modules\tourisme\controllers\form.classic.php : 18
+	3	formCtrl->showActivity()	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php : 225
+	4	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-17 17:01:58	::1	notice	2017-10-17 17:01:58	::1	[8]	Undefined variable: regionId	C:\wamp64\www\tourisme\modules\tourisme\classes\activityForm.class.php	16
+	/tourisme/www/index.php?module=tourisme&action=form:showActivity
+array (   'module' => 'tourisme',   'action' => 'form:showActivity', )
+
+	0	activityForm->__construct()	C:\wamp64\www\temp\tourisme\www\compiled\forms\modules\tourisme~activity_15.php : 30
+	1	cForm_tourisme_Jx_activity->__construct()	C:\wamp64\jelix\lib\jelix\forms\jForms.class.php : 101
+	2	jForms::get()	C:\wamp64\www\tourisme\modules\tourisme\controllers\form.classic.php : 18
+	3	formCtrl->showActivity()	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php : 225
+	4	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-17 17:01:58	::1	notice	2017-10-17 17:01:58	::1	[8]	Undefined variable: regionId	C:\wamp64\www\tourisme\modules\tourisme\classes\activityForm.class.php	16
+	/tourisme/www/index.php?module=tourisme&action=form:showActivity
+array (   'module' => 'tourisme',   'action' => 'form:showActivity', )
+
+	0	activityForm->__construct()	C:\wamp64\www\temp\tourisme\www\compiled\forms\modules\tourisme~activity_15.php : 30
+	1	cForm_tourisme_Jx_activity->__construct()	C:\wamp64\jelix\lib\jelix\forms\jForms.class.php : 101
+	2	jForms::get()	C:\wamp64\www\tourisme\modules\tourisme\controllers\form.classic.php : 18
+	3	formCtrl->showActivity()	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php : 225
+	4	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-17 17:01:58	::1	notice	2017-10-17 17:01:58	::1	[8]	Undefined variable: regionId	C:\wamp64\www\tourisme\modules\tourisme\classes\activityForm.class.php	16
+	/tourisme/www/index.php?module=tourisme&action=form:showActivity
+array (   'module' => 'tourisme',   'action' => 'form:showActivity', )
+
+	0	activityForm->__construct()	C:\wamp64\www\temp\tourisme\www\compiled\forms\modules\tourisme~activity_15.php : 30
+	1	cForm_tourisme_Jx_activity->__construct()	C:\wamp64\jelix\lib\jelix\forms\jForms.class.php : 101
+	2	jForms::get()	C:\wamp64\www\tourisme\modules\tourisme\controllers\form.classic.php : 18
+	3	formCtrl->showActivity()	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php : 225
+	4	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-18 13:22:56	::1	error	2017-10-18 13:22:56	::1	[4096]	Argument 1 passed to formCtrl::fillDepartments() must be an instance of int, none given, called in C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php on line 225 and defined	C:\wamp64\www\tourisme\modules\tourisme\controllers\form.classic.php	42
+	/tourisme/www/index.php?module=tourisme&action=form:fillDepartments
+array (   'module' => 'tourisme',   'action' => 'form:fillDepartments', )
+
+	0	formCtrl->fillDepartments()	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php : 225
+	1	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-18 13:23:11	::1	error	2017-10-18 13:23:11	::1	[4096]	Argument 1 passed to formCtrl::fillDepartments() must be an instance of int, none given, called in C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php on line 225 and defined	C:\wamp64\www\tourisme\modules\tourisme\controllers\form.classic.php	42
+	/tourisme/www/index.php?module=tourisme&action=form:fillDepartments&idRegion=1
+array (   'module' => 'tourisme',   'action' => 'form:fillDepartments',   'idRegion' => '1', )
+
+	0	formCtrl->fillDepartments()	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php : 225
+	1	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-18 13:23:15	::1	error	2017-10-18 13:23:15	::1	[4096]	Argument 1 passed to formCtrl::fillDepartments() must be an instance of int, none given, called in C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php on line 225 and defined	C:\wamp64\www\tourisme\modules\tourisme\controllers\form.classic.php	42
+	/tourisme/www/index.php?module=tourisme&action=form:fillDepartments
+array (   'module' => 'tourisme',   'action' => 'form:fillDepartments', )
+
+	0	formCtrl->fillDepartments()	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php : 225
+	1	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-18 13:24:59	::1	error	2017-10-18 13:24:59	::1	[4096]	Argument 1 passed to formCtrl::fillDepartments() must be an instance of int, none given, called in C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php on line 225 and defined	C:\wamp64\www\tourisme\modules\tourisme\controllers\form.classic.php	42
+	/tourisme/www/index.php/activites/1
+array (   'module' => 'tourisme',   'action' => 'form:fillDepartments',   'idRegion' => '1', )
+
+	0	formCtrl->fillDepartments()	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php : 225
+	1	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-18 13:25:29	::1	error	2017-10-18 13:25:29	::1	[4096]	Argument 1 passed to formCtrl::fillDepartments() must be an instance of int, none given, called in C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php on line 225 and defined	C:\wamp64\www\tourisme\modules\tourisme\controllers\form.classic.php	42
+	/tourisme/www/index.php/activites/1
+array (   'module' => 'tourisme',   'action' => 'form:fillDepartments',   'idRegion' => '1', )
+
+	0	formCtrl->fillDepartments()	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php : 225
+	1	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-18 13:25:39	::1	error	2017-10-18 13:25:39	::1	[4096]	Argument 1 passed to formCtrl::fillDepartments() must be an instance of int, none given, called in C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php on line 225 and defined	C:\wamp64\www\tourisme\modules\tourisme\controllers\form.classic.php	42
+	/tourisme/www/index.php/activites/1
+array (   'module' => 'tourisme',   'action' => 'form:fillDepartments',   'idRegion' => '1', )
+
+	0	formCtrl->fillDepartments()	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php : 225
+	1	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-18 13:25:40	::1	error	2017-10-18 13:25:40	::1	[4096]	Argument 1 passed to formCtrl::fillDepartments() must be an instance of int, none given, called in C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php on line 225 and defined	C:\wamp64\www\tourisme\modules\tourisme\controllers\form.classic.php	42
+	/tourisme/www/index.php/activites/1
+array (   'module' => 'tourisme',   'action' => 'form:fillDepartments',   'idRegion' => '1', )
+
+	0	formCtrl->fillDepartments()	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php : 225
+	1	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-18 13:25:40	::1	error	2017-10-18 13:25:40	::1	[4096]	Argument 1 passed to formCtrl::fillDepartments() must be an instance of int, none given, called in C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php on line 225 and defined	C:\wamp64\www\tourisme\modules\tourisme\controllers\form.classic.php	42
+	/tourisme/www/index.php/activites/1
+array (   'module' => 'tourisme',   'action' => 'form:fillDepartments',   'idRegion' => '1', )
+
+	0	formCtrl->fillDepartments()	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php : 225
+	1	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-18 13:29:52	::1	error	2017-10-18 13:29:52	::1	[132]	Réponse non spécifiée (action tourisme~form:fillDepartments@classic)	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php	227
+	/tourisme/www/index.php?module=tourisme&action=form:fillDepartments
+array (   'module' => 'tourisme',   'action' => 'form:fillDepartments', )
+
+	0	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-18 13:30:24	::1	error	2017-10-18 13:30:24	::1	[132]	Réponse non spécifiée (action tourisme~form:fillDepartments@classic)	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php	227
+	/tourisme/www/index.php?module=tourisme&action=form:fillDepartments
+array (   'module' => 'tourisme',   'action' => 'form:fillDepartments', )
+
+	0	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-18 13:30:29	::1	error	2017-10-18 13:30:29	::1	[132]	Réponse non spécifiée (action tourisme~form:fillDepartments@classic)	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php	227
+	/tourisme/www/index.php?module=tourisme&action=form:fillDepartments
+array (   'module' => 'tourisme',   'action' => 'form:fillDepartments', )
+
+	0	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-18 13:30:39	::1	error	2017-10-18 13:30:39	::1	[132]	Réponse non spécifiée (action tourisme~form:fillDepartments@classic)	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php	227
+	/tourisme/www/index.php?module=tourisme&action=form:fillDepartments&regionid=1
+array (   'module' => 'tourisme',   'action' => 'form:fillDepartments',   'regionid' => '1', )
+
+	0	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-18 13:30:52	::1	error	2017-10-18 13:30:52	::1	[132]	Réponse non spécifiée (action tourisme~form:fillDepartments@classic)	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php	227
+	/tourisme/www/index.php?module=tourisme&action=form:fillDepartments&regionid=1
+array (   'module' => 'tourisme',   'action' => 'form:fillDepartments',   'regionid' => '1', )
+
+	0	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-18 13:30:53	::1	error	2017-10-18 13:30:53	::1	[132]	Réponse non spécifiée (action tourisme~form:fillDepartments@classic)	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php	227
+	/tourisme/www/index.php?module=tourisme&action=form:fillDepartments&regionid=1
+array (   'module' => 'tourisme',   'action' => 'form:fillDepartments',   'regionid' => '1', )
+
+	0	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-18 13:30:53	::1	error	2017-10-18 13:30:53	::1	[132]	Réponse non spécifiée (action tourisme~form:fillDepartments@classic)	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php	227
+	/tourisme/www/index.php?module=tourisme&action=form:fillDepartments&regionid=1
+array (   'module' => 'tourisme',   'action' => 'form:fillDepartments',   'regionid' => '1', )
+
+	0	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-18 13:30:58	::1	error	2017-10-18 13:30:58	::1	[132]	Réponse non spécifiée (action tourisme~form:fillDepartments@classic)	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php	227
+	/tourisme/www/index.php?module=tourisme&action=form:fillDepartments&regionid=1
+array (   'module' => 'tourisme',   'action' => 'form:fillDepartments',   'regionid' => '1', )
+
+	0	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-18 13:30:59	::1	error	2017-10-18 13:30:59	::1	[132]	Réponse non spécifiée (action tourisme~form:fillDepartments@classic)	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php	227
+	/tourisme/www/index.php?module=tourisme&action=form:fillDepartments&regionid=1
+array (   'module' => 'tourisme',   'action' => 'form:fillDepartments',   'regionid' => '1', )
+
+	0	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-18 13:31:00	::1	error	2017-10-18 13:31:00	::1	[132]	Réponse non spécifiée (action tourisme~form:fillDepartments@classic)	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php	227
+	/tourisme/www/index.php?module=tourisme&action=form:fillDepartments&regionid=1
+array (   'module' => 'tourisme',   'action' => 'form:fillDepartments',   'regionid' => '1', )
+
+	0	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-18 13:31:01	::1	error	2017-10-18 13:31:01	::1	[132]	Réponse non spécifiée (action tourisme~form:fillDepartments@classic)	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php	227
+	/tourisme/www/index.php?module=tourisme&action=form:fillDepartments&regionid=1
+array (   'module' => 'tourisme',   'action' => 'form:fillDepartments',   'regionid' => '1', )
+
+	0	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-18 13:31:02	::1	error	2017-10-18 13:31:02	::1	[132]	Réponse non spécifiée (action tourisme~form:fillDepartments@classic)	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php	227
+	/tourisme/www/index.php?module=tourisme&action=form:fillDepartments&regionid=1
+array (   'module' => 'tourisme',   'action' => 'form:fillDepartments',   'regionid' => '1', )
+
+	0	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-18 13:31:10	::1	error	2017-10-18 13:31:10	::1	[132]	Réponse non spécifiée (action tourisme~form:fillDepartments@classic)	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php	227
+	/tourisme/www/index.php?module=tourisme&action=form:fillDepartments&regionid=1
+array (   'module' => 'tourisme',   'action' => 'form:fillDepartments',   'regionid' => '1', )
+
+	0	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-18 13:32:43	::1	notice	2017-10-18 13:32:43	::1	[8]	Undefined index: regionId	C:\wamp64\www\tourisme\modules\tourisme\controllers\form.classic.php	45
+	/tourisme/www/index.php?module=tourisme&action=form:fillDepartments&regionid=1
+array (   'module' => 'tourisme',   'action' => 'form:fillDepartments',   'regionid' => '1', )
+
+	0	formCtrl->fillDepartments()	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php : 225
+	1	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-18 13:32:43	::1	notice	2017-10-18 13:32:43	::1	[8]	Undefined index: regionId	C:\wamp64\www\tourisme\modules\tourisme\controllers\form.classic.php	45
+	/tourisme/www/index.php?module=tourisme&action=form:fillDepartments
+array (   'module' => 'tourisme',   'action' => 'form:fillDepartments', )
+
+	0	formCtrl->fillDepartments()	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php : 225
+	1	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-18 13:32:47	::1	notice	2017-10-18 13:32:47	::1	[8]	Undefined index: regionId	C:\wamp64\www\tourisme\modules\tourisme\controllers\form.classic.php	45
+	/tourisme/www/index.php?module=tourisme&action=form:fillDepartments
+array (   'module' => 'tourisme',   'action' => 'form:fillDepartments', )
+
+	0	formCtrl->fillDepartments()	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php : 225
+	1	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-18 14:04:13	::1	error	2017-10-18 14:04:13	::1	[403]	Erreur dans la requête (Champ 'cities.cityPostcalCode' inconnu dans field list(SELECT `cities`.`cityId`, `cities`.`departmentId`, `cities`.`cityName`, `cities`.`cityPostcalCode` FROM `cities` AS `cities`, `departments` AS `departments` WHERE  `cities`.`departmentId`=`departments`.`departmentId` AND  `cities`.`departmentId`  = 3 ORDER BY `cities`.`cityName` asc))	C:\wamp64\jelix\lib\jelix\plugins\db\mysql\mysql.dbconnection.php	117
+	/tourisme/www/index.php?module=tourisme&action=form:fillCities&id=3
+array (   'module' => 'tourisme',   'action' => 'form:fillCities',   'id' => '3', )
+
+	0	mysqlDbConnection->_doQuery()	C:\wamp64\jelix\lib\jelix\db\jDbConnection.class.php : 123
+	1	jDbConnection->query()	C:\wamp64\www\temp\tourisme\www\compiled\daos\modules\tourisme~cities~mysql_15.php : 203
+	2	cDao_tourisme_Jx_cities_Jx_mysql->findByDepartment()	C:\wamp64\www\tourisme\modules\tourisme\controllers\form.classic.php : 77
+	3	formCtrl->fillCities()	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php : 225
+	4	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-18 14:04:54	::1	error	2017-10-18 14:04:54	::1	[403]	Erreur dans la requête (Champ 'cities.cityPostcalCode' inconnu dans field list(SELECT `cities`.`cityId`, `cities`.`departmentId`, `cities`.`cityName`, `cities`.`cityPostcalCode` FROM `cities` AS `cities`, `departments` AS `departments` WHERE  `cities`.`departmentId`=`departments`.`departmentId` AND  `cities`.`departmentId`  = 15 ORDER BY `cities`.`cityName` asc))	C:\wamp64\jelix\lib\jelix\plugins\db\mysql\mysql.dbconnection.php	117
+	/tourisme/www/index.php?module=tourisme&action=form:fillCities&id=15
+array (   'module' => 'tourisme',   'action' => 'form:fillCities',   'id' => '15', )
+
+	0	mysqlDbConnection->_doQuery()	C:\wamp64\jelix\lib\jelix\db\jDbConnection.class.php : 123
+	1	jDbConnection->query()	C:\wamp64\www\temp\tourisme\www\compiled\daos\modules\tourisme~cities~mysql_15.php : 203
+	2	cDao_tourisme_Jx_cities_Jx_mysql->findByDepartment()	C:\wamp64\www\tourisme\modules\tourisme\controllers\form.classic.php : 77
+	3	formCtrl->fillCities()	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php : 225
+	4	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-18 14:05:18	::1	error	2017-10-18 14:05:18	::1	[403]	Erreur dans la requête (Champ 'cities.cityPostcalCode' inconnu dans field list(SELECT `cities`.`cityId`, `cities`.`departmentId`, `cities`.`cityName`, `cities`.`cityPostcalCode` FROM `cities` AS `cities`, `departments` AS `departments` WHERE  `cities`.`departmentId`=`departments`.`departmentId` AND  `cities`.`departmentId`  = 3 ORDER BY `cities`.`cityName` asc))	C:\wamp64\jelix\lib\jelix\plugins\db\mysql\mysql.dbconnection.php	117
+	/tourisme/www/index.php?module=tourisme&action=form:fillCities&id=3
+array (   'module' => 'tourisme',   'action' => 'form:fillCities',   'id' => '3', )
+
+	0	mysqlDbConnection->_doQuery()	C:\wamp64\jelix\lib\jelix\db\jDbConnection.class.php : 123
+	1	jDbConnection->query()	C:\wamp64\www\temp\tourisme\www\compiled\daos\modules\tourisme~cities~mysql_15.php : 203
+	2	cDao_tourisme_Jx_cities_Jx_mysql->findByDepartment()	C:\wamp64\www\tourisme\modules\tourisme\controllers\form.classic.php : 77
+	3	formCtrl->fillCities()	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php : 225
+	4	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+

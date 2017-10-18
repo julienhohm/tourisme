@@ -28,6 +28,8 @@ class myHtmlResponse extends jResponseHtml {
 		$this->addJSLink("https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js");
 		$this->addJSLink(jApp::urlBasePath() . "js/jquery.vmap.js");
 		$this->addJSLink(jApp::urlBasePath() . "js/jquery.vmap.france.js");        
+		$this->addJSLink(jApp::urlBasePath() . "js/main.js");  
+		
     }
 
     protected function doAfterActions() {

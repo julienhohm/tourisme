@@ -19,7 +19,13 @@
 		</div>
 		<div id="navbarMenu" class="navbar-menu">
 			<div class="navbar-start is-hidden-desktop">
-				
+				<div class="navbar-item">
+					{foreach $menus as $menu}
+						<a href="{$menu["Url"]}" class="navbar-item {$menu['Class']}">
+							{$menu["Name"]}
+						</a>
+					{/foreach}
+				</div>
 			</div>
 			<div class="navbar-tabs is-hidden-touch">
 				{foreach $menus as $menu}

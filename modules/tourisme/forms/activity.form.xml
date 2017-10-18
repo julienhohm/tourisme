@@ -8,6 +8,13 @@
 		<alert type="invalid">Vérifier le nombre de caractères.</alert>
 	</input>
 	
+	<textarea ref="description" required="true" maxlength="500">
+		<label>Description :</label>
+		<help>500 caractères maximum.</help>
+		<alert type="required">La description est obligatoire.</alert>
+		<alert type="invalid">Vérifier le nombre de caractères.</alert>
+	</textarea>
+	
 	<textarea ref="address" required="true" maxlength="200">
 		<label>Adresse :</label>
 		<help>200 caractères maximum.</help>
@@ -22,7 +29,10 @@
 	
 	<menulist ref="department" required="true">
 		<label>Département :</label>
-		<datasource dao="tourisme~departments" method="findByRegion" criteriafrom="region" labelproperty="departmentName" valueproperty="departmentId"/>
+	</menulist>
+	
+	<menulist ref="city" required="true">
+		<label>Ville :</label>
 	</menulist>
 	
 	<submit ref="submit">

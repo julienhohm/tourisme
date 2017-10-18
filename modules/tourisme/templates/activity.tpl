@@ -4,7 +4,7 @@
 			<div class="column is-12">
 				<h1 class="title">{@tourisme~activity.title@}</h1>
 			</div>
-			<div class="column is-5">
+			<div class="column is-7">
 				{form $form, 'form:saveActivity'}
 					{formcontrols}
 					<div class="field">
