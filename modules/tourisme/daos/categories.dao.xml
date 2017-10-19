@@ -1,0 +1,14 @@
+<dao xmlns="http://jelix.org/ns/dao/1.0">
+	<datasources>
+		<primarytable name="categories" realname="categories" primarykey="categoryId"/>
+		<optionalforeigntable name="categoriesMother" realname="categories" primarykey="categoryId" onforeignkey="categoryMotherId"/>
+	</datasources>
+	<record>
+		<property name="categoryId" datatype="bigint" required="true" autoincrement="true"/>
+		<property name="categoryMotherId" datatype="bigint" required="true"/>
+		<property name="categoryName" datatype="varchar" required="true" maxlength="50"/>
+	</record>
+	<factory>
+		
+	</factory>
+</dao>

@@ -35,6 +35,11 @@
 		<label>Ville :</label>
 	</menulist>
 	
+	<menulist ref="category" required="true">
+		<label>Categorie :</label>
+		<datasource dao="tourisme~categories" method="findAll" labelproperty="categoryName" valueproperty="categoryId"/>
+	</menulist>
+	
 	<submit ref="submit">
 		<label>Enregistrer</label>		
 	</submit>

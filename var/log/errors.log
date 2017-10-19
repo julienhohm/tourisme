@@ -22143,3 +22143,55 @@ array (   'module' => 'tourisme',   'action' => 'form:fillCities',   'id' => '3'
 	4	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
 
 
+2017-10-19 14:04:42	::1	error	2017-10-19 14:04:42	::1	[17]	Le sélecteur "tourisme~categories"  ne désigne pas une ressource de type dao	C:\wamp64\jelix\lib\jelix\core\selector\jSelectorDao.class.php	63
+	/tourisme/www/index.php?module=tourisme&action=form:showActivity
+array (   'module' => 'tourisme',   'action' => 'form:showActivity', )
+
+	0	jSelectorDao->_createPath()	C:\wamp64\jelix\lib\jelix\core\selector\jSelectorModule.class.php : 41
+	1	jSelectorModule->__construct()	C:\wamp64\jelix\lib\jelix\core\selector\jSelectorDao.class.php : 42
+	2	jSelectorDao->__construct()	C:\wamp64\jelix\lib\jelix\dao\jDao.class.php : 58
+	3	jDao::get()	C:\wamp64\jelix\lib\jelix\forms\jFormsDatasource.class.php : 215
+	4	jFormsDaoDatasource->getData()	C:\wamp64\www\tourisme\plugins\formwidget\menulist_bulma\menulist_bulma.formwidget.php : 6
+	5	menulist_bulmaFormWidget->outputControl()	C:\wamp64\www\tourisme\plugins\formbuilder\formhtml\formhtml.formbuilder.php : 80
+	6	formhtmlFormBuilder->outputControl()	C:\wamp64\jelix\lib\jelix\plugins\tpl\html\function.ctrl_control.php : 43
+	7	jtpl_function_html_ctrl_control()	C:\wamp64\www\temp\tourisme\www\compiled\templates\modules\tourisme\activity_html_t_15.php : 53
+	8	template_e2f25657b25061a86fd942fcf8911252()	C:\wamp64\jelix\lib\jelix\tpl\jTpl.class.php : 287
+	9	jTpl->fetch()	C:\wamp64\www\tourisme\modules\tourisme\controllers\form.classic.php : 28
+	10	formCtrl->showActivity()	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php : 225
+	11	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-19 14:04:53	::1	error	2017-10-19 14:04:53	::1	[403]	Erreur dans la requête (Table/alias: 'categories' non unique(SELECT `categories`.`categoryId`, `categories`.`categoryMotherId`, `categories`.`categoryName` FROM `categories` AS `categories` LEFT JOIN `categories` AS `categories` ON ( `categories`.`categoryMotherId`=`categories`.`categoryId`)))	C:\wamp64\jelix\lib\jelix\plugins\db\mysql\mysql.dbconnection.php	117
+	/tourisme/www/index.php?module=tourisme&action=form:showActivity
+array (   'module' => 'tourisme',   'action' => 'form:showActivity', )
+
+	0	mysqlDbConnection->_doQuery()	C:\wamp64\jelix\lib\jelix\db\jDbConnection.class.php : 123
+	1	jDbConnection->query()	C:\wamp64\jelix\lib\jelix\dao\jDaoFactoryBase.class.php : 181
+	2	jDaoFactoryBase->findAll()	C:\wamp64\jelix\lib\jelix\forms\jFormsDatasource.class.php : 225
+	3	jFormsDaoDatasource->getData()	C:\wamp64\www\tourisme\plugins\formwidget\menulist_bulma\menulist_bulma.formwidget.php : 6
+	4	menulist_bulmaFormWidget->outputControl()	C:\wamp64\www\tourisme\plugins\formbuilder\formhtml\formhtml.formbuilder.php : 80
+	5	formhtmlFormBuilder->outputControl()	C:\wamp64\jelix\lib\jelix\plugins\tpl\html\function.ctrl_control.php : 43
+	6	jtpl_function_html_ctrl_control()	C:\wamp64\www\temp\tourisme\www\compiled\templates\modules\tourisme\activity_html_t_15.php : 53
+	7	template_e2f25657b25061a86fd942fcf8911252()	C:\wamp64\jelix\lib\jelix\tpl\jTpl.class.php : 287
+	8	jTpl->fetch()	C:\wamp64\www\tourisme\modules\tourisme\controllers\form.classic.php : 28
+	9	formCtrl->showActivity()	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php : 225
+	10	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+
+2017-10-19 14:04:54	::1	error	2017-10-19 14:04:54	::1	[403]	Erreur dans la requête (Table/alias: 'categories' non unique(SELECT `categories`.`categoryId`, `categories`.`categoryMotherId`, `categories`.`categoryName` FROM `categories` AS `categories` LEFT JOIN `categories` AS `categories` ON ( `categories`.`categoryMotherId`=`categories`.`categoryId`)))	C:\wamp64\jelix\lib\jelix\plugins\db\mysql\mysql.dbconnection.php	117
+	/tourisme/www/index.php?module=tourisme&action=form:showActivity
+array (   'module' => 'tourisme',   'action' => 'form:showActivity', )
+
+	0	mysqlDbConnection->_doQuery()	C:\wamp64\jelix\lib\jelix\db\jDbConnection.class.php : 123
+	1	jDbConnection->query()	C:\wamp64\jelix\lib\jelix\dao\jDaoFactoryBase.class.php : 181
+	2	jDaoFactoryBase->findAll()	C:\wamp64\jelix\lib\jelix\forms\jFormsDatasource.class.php : 225
+	3	jFormsDaoDatasource->getData()	C:\wamp64\www\tourisme\plugins\formwidget\menulist_bulma\menulist_bulma.formwidget.php : 6
+	4	menulist_bulmaFormWidget->outputControl()	C:\wamp64\www\tourisme\plugins\formbuilder\formhtml\formhtml.formbuilder.php : 80
+	5	formhtmlFormBuilder->outputControl()	C:\wamp64\jelix\lib\jelix\plugins\tpl\html\function.ctrl_control.php : 43
+	6	jtpl_function_html_ctrl_control()	C:\wamp64\www\temp\tourisme\www\compiled\templates\modules\tourisme\activity_html_t_15.php : 53
+	7	template_e2f25657b25061a86fd942fcf8911252()	C:\wamp64\jelix\lib\jelix\tpl\jTpl.class.php : 287
+	8	jTpl->fetch()	C:\wamp64\www\tourisme\modules\tourisme\controllers\form.classic.php : 28
+	9	formCtrl->showActivity()	C:\wamp64\jelix\lib\jelix\core\jCoordinator.class.php : 225
+	10	jCoordinator->process()	C:\wamp64\www\tourisme\www\index.php : 19
+
+

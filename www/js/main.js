@@ -41,13 +41,13 @@ $(document).ready(function (){
 				});
 				
 				$("#jforms_tourisme_activity_department").append(options);
+				$("#jforms_tourisme_activity_department").change();
 				
 			});
 		});
+		
+			
 	}
-	
-	// Initialize the drowpdown with the default selected region
-	$("#jforms_tourisme_activity_region").change();
 	
 	// Get the dropdown region
 	var department = $("#jforms_tourisme_activity_department");
@@ -57,7 +57,7 @@ $(document).ready(function (){
 		
 		// Add a onchange event
 		department.change(function(){
-			
+						
 			$("#jforms_tourisme_activity_city").html("");
 			
 			$.getJSON("http://localhost:8080/tourisme/www/index.php?module=tourisme&action=form:fillCities&id=" + this.value, function(data){
@@ -75,7 +75,7 @@ $(document).ready(function (){
 		});
 	}
 	
-	// Initialize the drowpdown with the default selected department
-	$("#jforms_tourisme_activity_department").change();
+	// Initialize the drowpdown with the default selected region
+	$("#jforms_tourisme_activity_region").change();
 	
 });
