@@ -2,6 +2,7 @@
 <urls xmlns="http://jelix.org/ns/urls/1.0">
     <entrypoint type="classic" name="index" default="true" noentrypoint="true">
 		<url pathinfo="/" module="tourisme" action="default:home"></url>
-		<url pathinfo="/activites/ajouter" module="tourisme" action="form:prepareActivity"></url>
+		<url pathinfo="/activites" module="tourisme" action="form:prepareActivity"></url>
+		<url pathinfo="/activites/ajouter" module="tourisme" action="form:showActivity"></url>
 	</entrypoint>
 </urls>

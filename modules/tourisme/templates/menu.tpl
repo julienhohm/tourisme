@@ -34,7 +34,7 @@
 					</a>
 				{/foreach}
 			</div>
-			<div class="navbar-end is-hidden-mobile is-hidden-tablet">
+			<div class="navbar-end is-hidden-touch">
 				<a href="" class="navbar-item">
 					<span class="icon socials">
 						<i class="fa fa-facebook-official fa-2x"></i>
